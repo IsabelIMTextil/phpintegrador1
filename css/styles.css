@@ -1,0 +1,73 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.navbar {
+    box-shadow: 0px 2px 5px #777;
+    height: 70px;
+    width: 100%;
+   }
+
+
+.nav-link {
+    color: black !important;  
+    font-size: small;
+}
+
+.container {
+    max-height: 100px;}
+
+#arq {
+    background-color: rgb(143, 136, 119);
+    color: aliceblue;
+    box-shadow: 0px 2px 5px #777;
+}
+
+#textil {
+    box-shadow: 0px 2px 5px #777;
+}
+
+#charlas {
+    text-align: center;
+    /* background-color: #f9c74f; */
+}
+
+#nuevo {
+    background-color: #f9c74f;
+    
+}
+
+form {
+    margin-top: 10px;
+    text-align: center;
+    }
+
+#cupo {
+    width: 500px;
+    justify-content: center;
+    }
+
+.mb-3 {
+    padding-top: 20px;
+    width: 500px;}
+
+.d-grid {
+    width: 500px;}
+
+#submit {
+    border-radius: 7px;
+    border-color: #0a0a09;
+}
+
+#footer {
+    width: auto;
+    height: 150px;
+    margin-top: 400px;}
+
+    /* .navbar {
+        background: rgba(0, 0, 0, 0.178);
+    } */
+
+/* 
+https://www.forosdelweb.com/f53/situar-footer-siempre-final-pagina-1055757/ */
