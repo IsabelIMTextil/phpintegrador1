@@ -30,14 +30,14 @@
       <a class="navbar-brand" href="#"><strong></strong></a>
       <!-- saqué leyenda "charlas y talleres" -->
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <form class="d-flex">
-          <button class="btn btn-outline-secondary" type="submit">Inscripciones</button>
-      </form>
-        <!-- mudé el form -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex">
+              <button class="btn btn-outline-secondary" type="submit">Inscripciones</button>
+            </form>
+          <!-- mudé el form -->
 
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -115,6 +115,28 @@
             <!--  termina carousel -->
             </div>
             
+
+ <!-- empieza audio de texto -->
+            </div>
+                                  
+            <button id="playButton">Reproducir</button>
+            <div id="texto">Textiles tradicionales del territorio argentino. Buenos Aires - 11 y 12 de noviembre de 2023.  Charlas sobre cultura, lengua y cosmovisión de los pueblos originarios de Argentina. Los talleres sobre técnicas textiles Wichí, Mapuche y del NOA son con cupo limitado. Al final de la página encontrarás el formulario de inscripción. </div>
+
+            <script>
+                const playButton = document.getElementById('playButton');
+                const texto = document.getElementById('texto');
+                const speechSynthesis = window.speechSynthesis;
+
+                playButton.addEventListener('click', () => {
+                    const mensaje = new SpeechSynthesisUtterance(texto.textContent);
+                    speechSynthesis.speak(mensaje);
+                });
+            </script>
+
+
+            </div>
+
+<!-- termina audio de texto -->
                 <!-- comienzan las cards -->
             <div class="body">
             
@@ -187,6 +209,8 @@
             
                              <!-- <input type="submit" id="nuevo" value="Conocé más"> -->
                     <button type="button" class="btn btn-warning" id="nuevo">Conocé más</button>
+
+                    
                            
                     </div>
             <!-- fin conocé más -->
