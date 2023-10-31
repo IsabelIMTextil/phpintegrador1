@@ -56,7 +56,7 @@
 </header>
 
 <body>
-  
+
     <div class="contenedor">
         <div class="item4"></div>
         <div class="item1">
@@ -83,6 +83,7 @@
 
     <div class="container">
         <p>VENTA</p>
+       
     <h1>VALOR DE TICKET $ 200</h1>
     </div>
 
@@ -106,21 +107,28 @@
 <!-- fin nombre apellido correo -->
 
 <!-- agrego formulario multiplicación -->
-<div class="row" action="">
-    <form id="multiplicar">
-        <label for="cantidad">Cantidad</label>  <input type="number" id="cantidad"> 
-        <label for="categoria">Categorías</label>  <input type="number" id="estudiantes"> 
-       
-      <!-- <select type="number" class="form-select" aria-label="Default select example">
-          <option value="est">Estudiantes</option>
-          <option value="soc">Socios</option>
-          <option value="vis">Visitas</option>
-          </select> --> 
+<div id="entradas" class="row" action="">
+    <form id="multiplicar" class="container">
+        <label for="cantidad">Cantidad</label>  <input type="number" id="cantidad" placeholder="Cantidad" required> 
+        <label for="categoria">Categorías</label> 
+        
+        <!-- <input type="text" id="estudiantes"> 
+       -->
+      <select id="categoria" type="number" class="form-select" aria-label="Default select example">
+          <option value="estudiantes">Estudiantes</option>
+          <option value="socios">Socios</option>
+          <option value="visitas">Visitas</option>
+          </select> 
 
-        <input type="button" onclick="multiplicar()" value="multiplicar">
-    </form>
-    <p>Total a pagar: $ <span id="resultado"></span></p>     
-
+       </form>
+    <p>Total a pagar: $ <span id="resultado"></span></p>    
+    
+    <label for="" id="valorTotal"></label>
+   
+    <div class="btn">
+      <input type="reset" value="Borrar">
+      <button onclick="multiplicar()" id="resumen" type="button" class="btn btn-secondary btn-sm"><h4>Resumen</h4></button>
+</div>
 
     <!-- comienza script - ticket = 200   - categorías: estudiante = 200 * 0,20; socio = 200 * 0,50; visita = 200 * 0,85 -->
  <script>
@@ -130,41 +138,39 @@ var visitas = 170;
 
       function multiplicar(){
         let cantidad = document.getElementById("cantidad").value;
+        console.log(document.getElementById("cantidad").value)
 
-        if (seleccionar = estudiantes){
-        let est = document.getElementById("estudiantes").value;
+        let categoria = document.getElementById("categoria").value 
+
+          if (categoria = "estudiantes"){
+          valorTicket = 200 * 0,20
+        console.log(valorTicket);
+
         let resumen = cantidad * estudiantes;
            document.getElementById("resultado").innerText = resumen;
-      }
+      } else if (categoria = "socios"){
+        valorTicket = 200 * 0,50
+        console.log(valorTicket);
 
-      //     if (seleccionar = socios){
-      //   let soc = document.getElementById("socios").value;
-      //   let resumen2 = cantidad * socios;
-      //      document.getElementById("resultado").innerText = resumen2;
-      // }
-      //       if (seleccionar = visitas){
-      //   let vis = document.getElementById("visitas").value;
-      //   let resumen3 = cantidad * visitas;
-      //      document.getElementById("resultado").innerText = resumen3;
-      // }     
-      }
+         let resumen1 = cantidad * socios;
+           document.getElementById("resultado").innerText = resumen1;
+      } else if (categoria = "visitas"){
+         valorTicket = 200 * 0,85
+        console.log(valorTicket)
+
+         let resumen2 = cantidad * visitas;
+            document.getElementById("resultado").innerText = resumen2;
+       }     
+      }  
+
+     const capturaTotal = document.getElementById("resultado")
+
       </script>
     
 </div>
 
 <!-- total a Pagar -->
 
-<!-- <button onclick="calcular" type="button">Total a pagar: $</button> -->
-
-</form>
-
-  <div class="btn">
-          <input type="reset" value="Borrar">
-          <button type="button" class="btn btn-secondary btn-sm"><h4>Resumen</h4></button>
-  </div>
-
-</div>
-</form>
         <!-- aquí footer -->
    <footer>
           <!-- aquí footer -->
@@ -213,3 +219,5 @@ var visitas = 170;
   
 </body>
 </html>
+
+<!-- <button onclick="alert(Total)" type="button" class="btn-secondary">Resumen</button>  -->
