@@ -81,61 +81,97 @@
 
     </div>
 
-    <div class="container">
+
+  <div class="container">
+    <div class="column">
         <p>VENTA</p>
-       
+       <br>
     <h1>VALOR DE TICKET $ 200</h1>
-    </div>
+  </div>
+  </div>
 
- <form action="datos.php">
-    <div class="form">
+ 
     
-<!--  nombre y apellido  correo -->
-<div class="box">
-<form>
-    <div class="row">
-        <div class="form-group">
-        <input type="text" name="username" id="username" class="form-control" value="" placeholder="Nombre" autocomplete="username" required>
-        </div>
+     
+<!--  nombre apellido correo para php -->
 
-        <div class="form-group">
-        <input type="text" name="username" id="username" value="" class="form-control" placeholder="Apellido" autocomplete="username" required>
-        </div>
-    </div>
+
+<form action="datos.php" method="get">
+    <!-- post para enviar y esconder la información /// get para traer y ver en la url -->
+    <div id="username">
+    <div class="mb-3">
+   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre" name="nombre" required>
+</div>
+</div>
+
+<div class="mb-3">
+   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="apellido" name="apellido" required>
+</div>
+
+
+<div class="mb-3">
+    <div id="correo">
+   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mail@servidor.com" name="mail" required></div>
+</div>
+<!-- <div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="comentarios"></textarea>
+</div> -->
+
+
+<input type="submit" value="Enviar">
+
+<input type="reset" value="Borrar">
 </form>
-</div>
 
-<div class="col-md-5">
-<div id="correo">
-  <label for="correo"></label>
-  <input type="email" id="correo" placeholder="email" required>
-</div>
-</div>
-<!-- fin nombre apellido correo -->
+    <!-- agrego formulario multiplicación -->
+    <div class="container">
+          <div id="entradas" action="">
+              <form id="multiplicar" class="container">
+                <div class="col-md-10" >
+                  <label for="cantidad">Cantidad</label>  <br><input type="number" id="cantidad" placeholder="Cantidad" required> 
+                </div>
+                <div  class="col-md-10">
+                  <label for="categoria">Categorías</label> 
+                   <select id="categoria" type="number" class="form-select" aria-label="Default select example">
+                    <option value="estudiantes">Estudiantes</option>
+                    <option value="socios">Socios</option>
+                    <option value="visitas">Visitas</option>
+                    </select> 
+                  </div>
+              </form>
+<!-- agrego botones bootstrap   -->
+                
+              <div class="alert alert-primary"  type="button" role="alert">Total a pagar: $ <span id="resultado"></span></div>
+             
+<!-- fin agrego botones    -->
+              <!-- <div class="col-md-10">
+             
+              <button onclick="multiplicar()" type="button" ><p>Total a pagar: $ <span id="resultado"></span></p></button>
+            </div> -->
+             
+          </div>
+    </div>
 
-<!-- agrego formulario multiplicación -->
-<div id="entradas" class="row" action="">
-    <form id="multiplicar" class="container">
-        <label for="cantidad">Cantidad</label>  <input type="number" id="cantidad" placeholder="Cantidad" required> 
-        <label for="categoria">Categorías</label> 
-        
-        <!-- <input type="text" id="estudiantes"> 
-       -->
-      <select id="categoria" type="number" class="form-select" aria-label="Default select example">
-          <option value="estudiantes">Estudiantes</option>
-          <option value="socios">Socios</option>
-          <option value="visitas">Visitas</option>
-          </select> 
 
-       </form>
-    <p>Total a pagar: $ <span id="resultado"></span></p>    
-    
-    <label for="" id="valorTotal"></label>
-   
-    <div class="btn">
-      <input type="reset" value="Borrar">
-      <button onclick="multiplicar()" id="resumen" type="button" class="btn btn-secondary btn-sm"><h4>Resumen</h4></button>
-</div>
+     <div id="container">
+       <div class="row">
+          <div class="col-md-6 text-center">
+                  <button id="borrar" type="reset" class="btn text-center" value="Borrar">Borrar</button>    
+          </div>
+          <div class="col-md-6 text-center">
+                  <button onclick="multiplicar()" id="resumen" type="button" class="btn btn-secondary text-center">Resumen</button>    
+          </div>
+       </div>
+     </div>
+  
+
+
+
+
+
+
+
 
     <!-- comienza script - ticket = 200   - categorías: estudiante = 200 * 0,20; socio = 200 * 0,50; visita = 200 * 0,85 -->
  <script>
@@ -175,9 +211,9 @@ var visitas = 170;
       </script>
     
 </div>
-
+</div></div>
 <!-- total a Pagar -->
-
+</main>
         <!-- aquí footer -->
    <footer>
           <!-- aquí footer -->

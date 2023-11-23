@@ -47,7 +47,7 @@
           <li class="nav-4">
             <a class="nav-link active" aria-current="page" href="#presentacion">Dar una charla</a>
           </li>
-          <li><a href="ticket.html"  target="_parent">Tickets</a></li>
+          <li><a href="tickets.php"  target="_parent">Tickets</a></li>
        
         </ul>
        
@@ -195,37 +195,48 @@
                       <div class="col-sm-3">
                                   </div>
                       <div class="col-sm-6">
-                    <form>
+                <form>
                         <p id="talleres">Inscripciones</p> 
                         <h4>Talleres con cupo limitado</h4>
                         <p><small>
                           Talleres simultáneos, inscríbite en el que te gusta. 
                         </small></p>
+
+                        
+
+                        <!-- agrego segú clase  -->
+                        <form action="datos1.php" method="post">
+
                         <div class="row" id="cupo">
                         <div class="form-group row">
-                          <input type="text" class="nombre" placeholder="nombre" required>
+                          <input type="text" class="nombre" placeholder="nombre" name="nombre" required>
                         </div>
                         <div class="form-group row">
-                          <input type="text" class="apellido" placeholder="apellido" required>
+                          <input type="text" class="apellido" placeholder="apellido" name="apellido" required>
                         </div>
-                          <div class="form-group row">
-                          <input type="text" class="correo" placeholder="Correo electrónico" required>
+                        <div class="form-group row">
+                          <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="número de teléfono" name="telefono" required>
                         </div>
-                          <div class="form-group row">
-                          <input type="text" class="correo" placeholder="número de teléfono" required>
-                        </div>
-                          <div class="mb-3" id="presentacion">
-                            <label for="exampleFormControlTextarea1" class="form-label">¿Te gustaría dar una charla?</label>
-                            <textarea class="form-control" placeholder="¿Te gustaría dar una  charla sobre textiles tradicionales? Contanos." id="exampleFormControlTextarea1" rows="3"></textarea>
-                            <p><small>Recuerda incluir un título para tu charla.</small></p>
+
+                       
+                          <div class="mb-1">
+                          <label for="exampleFormControlInput1" class="form-label" > </label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico" name="correo" required>
                           </div>
+                          <div class="mb-1">
+                            <label for="exampleFormControlTextarea1" class="form-label"></label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" name="comentario" placeholder="¿Te gustaría dar una charla? Contanos." cols="1" rows="3" required></textarea>
+                          <p><small>Recuerda incluir un título para tu charla.</small></p>
+                          </div>
+
+                          <input type="submit" value="Enviar">
+                          <input type="reset" value="Borrar">
+                        </form>
+<!-- termina agrego segú clase  -->
+
+                         
                         
-                        
-                        <!-- <input type="login" type="submit" value="Iniciar sesión"> -->
-                        
-                        <div class="d-grid gap-2">
-                            <button type="submit" class="btn btn-warning" type="button">Enviar</button>
-                        </div>
+                       
                     
                         <div class="border"></div>
                       </div>
