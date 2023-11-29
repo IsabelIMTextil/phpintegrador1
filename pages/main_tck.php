@@ -4,11 +4,9 @@
     
 <div class="contenedor">
 
-
-
-<div class="row row-cols-1 row-cols-md-3 g-1">
+<div class="row row-cols-1 row-cols-md-4 g-4">
    
-
+<div class="col"></div>
 <div class="p-3 mb-2 bg-warning text-dark rounded-2 text-center ">
   <div class="col">
     <div class="card h-100">
@@ -59,7 +57,7 @@
 </div>
 
 
-  <div class="container">
+  <div class="container text-center">
     <div class="column">
         <p>VENTA</p>
        <br>
