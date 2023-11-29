@@ -3,33 +3,38 @@
 
 <body>
     
+<div class="row row-cols-1 row-cols-md-4 g-5">
+<div class="col"></div>
 
 <form action="datos.php" method="get">
     <!-- post para enviar y esconder la información /// get para traer y ver en la url -->
-    <div id="username">
+    <div class="col" id="username">
     <div class="mb-3">
    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre" name="nombre" required>
 </div>
 </div>
 
+<div class="col">
 <div class="mb-3">
    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="apellido" name="apellido" required>
 </div>
-
+</div>
 
 <div class="mb-3">
     <div id="correo">
    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mail@servidor.com" name="mail" required></div>
+</div>
 </div>
 <!-- <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="comentarios"></textarea>
 </div> -->
 
-
+<div class="col">
 <input type="submit" value="Enviar">
 
 <input type="reset" value="Borrar">
+</div>
 </form>
 
     <!-- agrego formulario multiplicación -->
