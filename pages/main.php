@@ -135,18 +135,21 @@
                       <div class="col-sm-3">
                                   </div>
                       <div class="col-sm-6">
-                <form>
+               
                         <p id="talleres">Inscripciones</p> 
                         <h4>Talleres con cupo limitado</h4>
                         <p><small>
                           Talleres simultáneos, inscríbite en el que te gusta. 
                         </small></p>
 
-                        
+                        <?php
+                             //  require 'conexion.php';
+                        ?>
 
                         <!-- agrego segú clase  -->
-                        <form action="datos1.php" method="post">
-
+                        <!-- <form action="../phpintegrador1/datos1.php" method="POST"> -->
+                        <form action="../phpintegrador1/datos1.php" method="POST">
+                        
                         <div class="row" id="cupo">
                         <div class="form-group row">
                           <input type="text" class="nombre" placeholder="nombre" name="nombre" required>
@@ -180,7 +183,7 @@
                     
                         <div class="border"></div>
                       </div>
-                    </form>
+                    
                   </div>
                     <div class="col-sm-3"></div>
                   </div>
