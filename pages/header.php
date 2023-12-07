@@ -44,7 +44,7 @@
           <li class="nav-4">
             <a class="nav-link active" aria-current="page" href="#presentacion">Dar una charla</a>
           </li>
-          <li> <a  class="nav-link active" href="tickets.php"  target="_parent">Tickets</a></li>
+          <!-- <li> <a  class="nav-link active" href="tickets.php"  target="_parent">Tickets</a></li> -->
            <li> <a  class="nav-link active login-nav " href="admin.php"  target="_parent">Login</a></li>
        
        

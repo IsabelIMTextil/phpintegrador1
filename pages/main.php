@@ -121,31 +121,47 @@
                           <h4>Buenos Aires - 11 y 12 Nov. 2023</h4>
                             <p><small>Textiles arqueológicos: en el sitio preincaico de Santa Rosa de Tastil, Salta, se encontraron textiles que formaban parte de ajuares funerarios. Había telas, trenzados, gorros, ondas, redes y cordelería hechos con fibras de llama y de vicuña, fechados entre los años 1336 y 1439.</small></p>
             
-                             <!-- <input type="submit" id="nuevo" value="Conocé más"> -->
-                    <button type="button" class="btn btn-warning" id="nuevo">Conocé más</button>
+               <!-- <botón conocé expositores - abrir en otra pestaña> -->
+                    <!-- <button type="button" class="btn btn-warning" id="nuevo"><a href="pages/expositores.php">Conocé a los expositores</a></button> -->
                            
+                    <?php
+                  
+                  echo "<td><a class='button [btn btn-warning btn-block]'href='pages/expositores.php' target='_blank'>Conocé a los expositores</a></td></tr>"; 
+?>
+
+
+
                     </div>
             <!-- fin conocé más -->
             
-                   <!-- inicio formulario -->
+                 <!-- inicio formulario -->
             
-                   <div class="container">
+            <div class="container">
                     <div class="row align-items-start">
             
                       <div class="col-sm-3">
                                   </div>
                       <div class="col-sm-6">
                
-                        <p id="talleres">Inscripciones</p> 
-                        <h4>Talleres con cupo limitado</h4>
-                        <p><small>
-                          Talleres simultáneos, inscríbite en el que te gusta. 
-                        </small></p>
+
+<!-- abrir tickets en otra pestaña -->
+
+
+                        <p id="talleres"></p> 
+                        <h4>Talleres simultáneos con cupo limitado. <br> Adquirí tu <a>tickets </a>
+           e inscríbite en el que te gusta:</h4>
+           <?php
+                  
+                  echo "<td><a class='button [btn btn-warning btn-block]'href='tickets.php' target='_blank'>TICKETS</a></td></tr>"; 
+?>
+                       
+                        <br>
+                        <h3>Inscripciones para dar charlas</h3>
+
 
                         <?php
                              //  require 'conexion.php';
                         ?>
-
                         <!-- agrego segú clase  -->
                         <!-- <form action="../phpintegrador1/datos1.php" method="POST"> -->
                         <form action="../phpintegrador1/datos1.php" method="POST">
