@@ -30,11 +30,22 @@
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="comentarios"></textarea>
 </div> -->
 
-<div class="col">
-<input type="submit" value="Enviar">
 
-<input type="reset" value="Borrar">
-</div>
+
+<div id="container">
+       <div class="row">
+          <div class="col-md-6 text-center">
+                  <button onclick="" id="enviar" type="submit" class="btn btn-warning text-center" value="Enviar">Enviar</button>    
+          </div>
+          <div class="col-md-6 text-center">
+                  <button onclick="" id="borrar" type="reset" class="btn btn-warning text-center" value="Borrar">Borrar</button>    
+          </div>
+       </div>
+     </div>
+
+<br>
+
+
 </form>
 
     <!-- agrego formulario multiplicación -->
