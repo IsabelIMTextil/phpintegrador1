@@ -60,11 +60,9 @@
 
   <div class="container text-center">
     <div class="column">
-        <p>VENTA</p>
-       <br>
-    <h1>VALOR DE TICKET $ 200</h1>
+      <h4>VENTA de TICKETS</h4>    
   </div>
   </div>
-
+<br>
 
 </body>

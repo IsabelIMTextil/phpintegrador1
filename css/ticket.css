@@ -17,6 +17,7 @@
     width: 100%;
     background-color: rgb(fff);
     padding: 5px; 
+    margin-top: 10px;
 }
 
 
@@ -56,6 +57,7 @@
 
 #resultado{
     width: 600px;
+    
 }
 
 #borrar{

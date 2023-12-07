@@ -3,6 +3,8 @@
 
 <body>
     
+
+
 <div class="row row-cols-1 row-cols-md-4 g-5">
 <div class="col"></div>
 
@@ -32,7 +34,7 @@
 
 
 
-<div id="container">
+<div id="contenedor">
        <div class="row">
           <div class="col-md-6 text-center">
                   <button onclick="" id="enviar" type="submit" class="btn btn-warning text-center" value="Enviar">Enviar</button>    
@@ -44,8 +46,14 @@
      </div>
 
 <br>
-
-
+<br>
+<div class="container text-center">
+    <div class="column">
+      
+    <h1>VALOR DE TICKET $ 200</h1>
+  </div>
+  </div>
+<br>
 </form>
 
     <!-- agrego formulario multiplicación -->
