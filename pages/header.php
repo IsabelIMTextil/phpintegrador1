@@ -19,7 +19,7 @@
 
     <div class="container-fluid">
       
-      <img src="imagenes/logo.png" alt="Logo" width="150" height="70" class="d-inline-block align-text-top">
+      <a href="index.php"><img src="imagenes/logo.png" alt="Logo" width="150" height="70" class="d-inline-block align-text-top"></a>
       
 
       <a class="navbar-brand" href="#"><strong>Charlas y talleres</strong></a>
@@ -42,7 +42,9 @@
           <li class="nav-4">
             <a class="nav-link active" aria-current="page" href="#presentacion">Dar una charla</a>
           </li>
-          <li><a href="tickets.php"  target="_parent">Tickets</a></li>
+          <li> <a  class="nav-link active" href="tickets.php"  target="_parent">Tickets</a></li>
+           <li> <a  class="nav-link active login-nav " href="admin.php"  target="_parent">Login</a></li>
+       
        
         </ul>
        
