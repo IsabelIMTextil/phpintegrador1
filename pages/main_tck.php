@@ -1,6 +1,7 @@
 
 
 <body>
+<link rel="stylesheet" href="css/ticket.css">
     
 <div class="contenedor">
 

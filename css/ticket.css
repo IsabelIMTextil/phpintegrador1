@@ -4,26 +4,33 @@
     padding: 0;
 }
 
+.navbar {
+    box-shadow: 0px 2px 5px #777;
+    height: 70px;
+    width: 100%;
+   }
 
 
 /* cards */
-.contenedor{
-    height: 200px;
-    width: 500px;
-    
-    padding: 5px;
-   
-    
+.contenedor{      
+    height: 400px;
+    width: 100%;
+    background-color: rgb(fff);
+    padding: 5px; 
 }
 
 
 
 /* valor tickets + cantidad + categorias */
 .container{
-    height: 100px;
+    height: auto;
     width: 100%;
     background-color: rgb(fff);
     padding: 5px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    text-align: center;    
    }
 
 /*nombre + apellido + mail*/
