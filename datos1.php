@@ -61,10 +61,12 @@ $tema=$_POST["comentario"]; ;
 
 
  // Redirección a otra página
- //header("Location:/index.php");
+ header("Location:index.php");
  //exit(); // Asegúrate de detener la ejecución del script después de la redirección
 
 //  echo "<a href=\"\/phpintegrador1\/index.php\"'>Ir a Ejemplo</a>";
  echo "<a href='index.php'> Ir a inicio de index</a>";
+
+ exit(); // Asegúrate de detener la ejecución del script después de la redirección
 ?>
 
