@@ -26,7 +26,17 @@ require "pages/header.php";
           <label>Password</label>
         </div>
         <div class="pass">Olvidó su contraseña?</div>
-        <input type="submit" value="Login">
+        <input type="submit" value="Login" >
+
+        <!-- boton login -->
+        <?php
+                  
+                  echo "<td><a class='button [btn btn-primary btn-block]'href='conex.php' target='_blank'>Login</a></td></tr>"; 
+?>
+
+
+
+
         <div class="signup_link">
           No es miembro? <a href="#">Registrarse</a>
         </div>
