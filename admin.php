@@ -26,7 +26,7 @@ require "pages/header.php";
           <label>Password</label>
         </div>
         <div class="pass">Olvidó su contraseña?</div>
-        <input type="submit" value="Login" >
+        <!-- <input type="submit" value="Login" > -->
 
         <!-- boton login -->
         <?php
