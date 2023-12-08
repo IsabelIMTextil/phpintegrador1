@@ -175,6 +175,7 @@
                         <!-- agrego segú clase  -->
                         <!-- <form action="../phpintegrador1/datos1.php" method="POST"> -->
                         <form action="../phpintegrador1/datos1.php" method="POST">
+                        <!-- Para que funcione en WEBHOST hay que cambiar a <form action="datos1.php" method="POST">  -->
                         
                         <div class="row" id="cupo">
                         <div class="form-group row">
