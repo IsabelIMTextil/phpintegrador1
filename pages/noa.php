@@ -8,7 +8,7 @@
 <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
     <div class="card">
-      <img src="imagenes/noa manta.jpeg" class="card-img-top" alt="manta tejia en telar criollo">
+      <img src="imagenes/noa_manta.jpeg" class="card-img-top" alt="manta tejia en telar criollo">
       <div class="card-body">
         <h5 class="card-title">NOA - Noroeste Argentino</h5>
         <p class="card-text">El noroeste argentino está integrado por las provincias de Jujuy, Salta, Tucumán, Catamarca, La Rioja y Santiago del Estero. Esta región tuvo un importante desarrollo prehispánico. Además, cuenta con las ciudades coloniales más antiguas de nuestro país, ya que es la zona de entrada de los conquistadores españoles desde Perú. Las poblaciones locales vivieron y viven en los muy distintos paisajes: están las altas montañas y los valles fértiles, las quebradas y las sierras subandinas, las yungas y la puna. </p>
