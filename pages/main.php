@@ -71,7 +71,12 @@
                               <h5 class="card-title">Tejido Wichí </h5>
                               <p class="card-text">Los tejidos de la cultura Wichí se realizan con la fibra de chaguar o caraguatá, una
                                 planta que se usa desde tiempos prehispánicos con fines... </p>
-                              <p class="card-text"><small class="text-body-secondary">más...</small></p>
+                              <!-- <p class="card-text"><small class="text-body-secondary">más...</small></p> -->
+                              <?php
+                  
+                  echo "<td><a class='button [btn btn-warning btn-block]'href='pages/wichi.php' target='_blank'>más...</a></td></tr>"; 
+?>
+
                             </div>
                           </div>
                         </div>
@@ -84,7 +89,12 @@
                               <h5 class="card-title">Técnica textil Mapuche</h5>
                               <p class="card-text">Los tejidos de la cultura Mapuche se realizan en telar vertical o "witral", que en
                                 lengua mapuche...</p>
-                              <p class="card-text"><small class="text-body-secondary">más...</small></p>
+                              <!-- <p class="card-text"><small class="text-body-secondary">más...</small></p> -->
+                              <?php
+                  
+                  echo "<td><a class='button [btn btn-warning btn-block]'href='pages/mapuche.php' target='_blank'>más...</a></td></tr>"; 
+?>
+
                             </div>
                           </div>
                         </div>
@@ -148,7 +158,7 @@
 
 
                         <p id="talleres"></p> 
-                        <h4>Talleres simultáneos con cupo limitado. <br> Adquirí tu <a>tickets </a>
+                        <h4>Talleres simultáneos con cupo limitado. <br> Adquirí tu <a>ticket </a>
            e inscríbite en el que te gusta:</h4>
            <?php
                   

@@ -74,6 +74,9 @@ if ($result->num_rows > 0) {
       <td class="col-2"><?= $row['mail'] ?></td>
       <td class="col-2"><?= $row['telefono'] ?></td>
       <td class="col-2"><?= $row['tema'] ?></td>
+      <!-- <td><button >editar</button></td>
+      <td><button>actualizar</button></td> -->
+      
     </tr>
    
   </tbody>
