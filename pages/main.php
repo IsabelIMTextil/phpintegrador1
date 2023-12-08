@@ -72,10 +72,9 @@
                               <p class="card-text">Los tejidos de la cultura Wichí se realizan con la fibra de chaguar o caraguatá, una
                                 planta que se usa desde tiempos prehispánicos con fines... </p>
                               <!-- <p class="card-text"><small class="text-body-secondary">más...</small></p> -->
-                              <?php
-                  
+                  <?php
                   echo "<td><a class='button [btn btn-warning btn-block]'href='pages/wichi.php' target='_blank'>más...</a></td></tr>"; 
-?>
+                  ?>
 
                             </div>
                           </div>
@@ -107,7 +106,11 @@
                               <h5 class="card-title">Técnica textil del NOA</h5>
                               <p class="card-text">El tejido en telar es una de las principales técnicas textiles del NOA. Se arma una
                                 urdimbre, conjunto de hilos paralelos, que se...</p>
-                              <p class="card-text"><small class="text-body-secondary">más...</small></p>
+                              <p class="card-text">
+                              <?php
+                  echo "<td><a class='button [btn btn-warning btn-block]'href='pages/noa.php' target='_blank'>más...</a></td></tr>"; 
+                  ?>  
+                              </p>
                             </div>
                           </div>
                         </div>
