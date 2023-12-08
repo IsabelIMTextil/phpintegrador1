@@ -1,8 +1,14 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
    
-
+<body>
+    
 <div class="col-sm-6";> <img src="../imagenes/erme.png" class=" img-thumbnail rounded" alt="Ermelinda Painequeo"id="textil">  </div>
 <h3>Ermelinda Painequeo</h3>
+
+
+
+
+
 
 <div class="col-sm-6";> <img src="../imagenes/manta.jpeg" class=" img-thumbnail rounded" alt="Manta en técnica guarda atada"id="textil">  </div>
 
@@ -24,3 +30,6 @@
 <p><b>El caballo llega al sur</b></p><br>
 <p>Cuando llegaron los conquistadores españoles, uno de los cambios que introdujeron en el estilo de vida de estas comunidades fue la incorporación del caballo. A partir de entonces, la confección de tejidos ya no se destinó sólo a la vestimenta o al abrigo, sino también a los aperos para los caballos. En esas piezas textiles se sumaron otros materiales (cueros y metales) y nuevas técnicas.</p>
 <p></p>
+
+
+</body>

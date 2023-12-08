@@ -23,3 +23,9 @@
 </p><br>
 <div class="col-sm-6";> <img src="../magenes/palosanto.jpeg" class=" img-thumbnail rounded" alt="palo santo - árbol"id="textil">  </div>
 <p><b>El palo santo </b>es un árbol nativo del Gran Chaco sudamericano, su madera es muy preciada. Los wichís la usan para tratamientos médicos, y para tallar o tornear utensilios de cocina y artesanías que representan la fauna del monte. Por otra parte, existe la creencia de qu el humo de esta madera ahuyenta los espíritus malignos. De ella se obtiene el color azul verdoso, y de las hojas del palo santo, el amarillo para teñir textiles</p>
+
+
+
+<iframe width="240" height="134" src="https://www.youtube.com/watch?v=DOMXpNCDI_Y" title="Ma del Carmen T 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="240" height="134" src="https://www.youtube.com/watch?v=l_ORAp39MAo" title="Ma del Carmen T 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
