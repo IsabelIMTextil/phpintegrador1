@@ -148,14 +148,14 @@ p {
 
 .button-tickets {
   background-color: #ffc107; /* Color de fondo amarillo */
-  border-radius: 5px; /* Bordes redondeados */
-  font-size: 1.15em;
+  border-radius: 6px; /* Bordes redondeados */
+  font-size: 1em;
   letter-spacing: 2cap;
   text-decoration: none;
-  padding-left: 10em;
-  padding-right: 10em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-left: 8em;
+  padding-right: 8em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
   color: rgb(32, 25, 0);
 }
 
