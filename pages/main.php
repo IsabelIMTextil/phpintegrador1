@@ -165,8 +165,9 @@
            e inscríbite en el que te gusta:</h4>
            <?php
                   
-                  echo "<td><a class='button [btn btn-warning btn-block]'href='tickets.php' target='_blank'>TICKETS</a></td></tr>"; 
-?>
+                  // echo "<td><a class='button [btn btn-warning btn-block]'href='tickets.php' target='_blank'>TICKETS</a></td></tr>"; 
+                    echo "<a class='button button-tickets' href='tickets.php' target='_blank'>TICKETS</a>";
+          ?>
                        
                         <br>
                         <div id= "titulo-inscripciones">
