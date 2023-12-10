@@ -85,6 +85,18 @@ p {
   text-shadow: 40px 40px 50px #0005 !important;
 }
 
+#titulo-inscripciones {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 10px; /* Espaciado interno de 10px */
+  text-align: center; /* Centrar el contenido del div */
+  letter-spacing: 0.3cap;
+}
+#font-titulo{
+  color: rgb(150, 69, 55); 
+}
+
+
 /*.btn-info:active{
   margin-right: 1em !important;
   background-color: #89654A!important;
@@ -111,5 +123,11 @@ p {
   /* Puedes ajustar estos estilos según tus preferencias */
   transform: translateY(1px)!important;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1)!important;
+}
+#subtitulo-recordatorio{
+  color:rgb(150, 69, 55);
+  font-weight: 700;
+  font-size: 0.90em;
+  letter-spacing: 0.1cap;
 }
 
