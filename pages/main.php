@@ -141,41 +141,35 @@
                   
                   echo "<td><a class='button [btn btn-warning btn-block]'href='pages/expositores.php' target='_blank'>Conocé a los expositores</a></td></tr>"; 
 ?>
-
-
-
                     </div>
             <!-- fin conocé más -->
             
                  <!-- inicio formulario -->
             
             <div class="container">
-                    <div class="row align-items-start">
-            
-                      <div class="col-sm-3">
-                                  </div>
+              <div class="row align-items-start">
+                <div class="col-sm-3">
+                   </div>
                       <div class="col-sm-6">
-               
-
 <!-- abrir tickets en otra pestaña -->
-
-
+                        
+                      <div id="subtitulo-talleres">
+                      <h4>Talleres simultáneos con cupo limitado.</h4>
+                      </div>
                       
-                        <div id="talleres">
-                          <h4>Talleres simultáneos con cupo limitado.</h4>
-                          <p id="adquiri-tickets">Adquirí tu <a>ticket </a> aquí:</p>
-                        </div>
+                      <div id="talleres">
+                        <p id="adquiri-tickets">Adquirí tu <a>ticket </a> aquí:</p>
+                      </div>
                         
            <?php
                   
                   // echo "<td><a class='button [btn btn-warning btn-block]'href='tickets.php' target='_blank'>TICKETS</a></td></tr>"; 
                     echo "<a class='button button-tickets' href='tickets.php' target='_blank'>TICKETS</a>";
           ?>
-                       
-                        <br>
-                        <div id= "titulo-inscripciones">
-                          <h3 id="font-titulo">INSCRIPCIONES PARA DAR CHARLAS</h3>
-                        </div>
+                    <div id= "titulo-inscripciones">
+                      <h3 id="font-titulo">INSCRIPCIONES PARA DAR CHARLAS</h3>
+                        
+                    </div>
                         
 
 
@@ -217,10 +211,10 @@
                             <div class="container-datos">   
                                 <div class="row">
                                     <div class="col">
-                                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                                      <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
                                     </div>
                                     <div class="col">
-                                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                                      <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
                                     </div>
                                 </div>
                                 <div class="mb-3">
@@ -240,19 +234,14 @@
                         </div>                      
                       </form>
 <!-- termina agrego segú clase  -->
-
-                         
-                        
-                       
                     
-                        <div class="border"></div>
-                      </div>
-                    
-                  </div>
-                    <div class="col-sm-3"></div>
-                  </div>
+            <div class="border"></div>
+        </div>            
+      </div>
+    <div class="col-sm-3"></div>
+  </div>
             
-                  </div>
+</div>
             
                     <!-- fin formulario -->
     </main>
