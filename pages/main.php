@@ -224,7 +224,7 @@
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="¿Sobre qué quieres hablar?" aria-label="¿Sobre qué quieres hablar?"></textarea>
                                 </div>
 
-                                <div>
+                                <div id="subtitulo-recordatorio">
                                     <p class="recordatorio-text-area">Recuerda incluir un título para tu charla</p>
                                 </div> 
                                 
