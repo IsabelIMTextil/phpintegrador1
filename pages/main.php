@@ -169,7 +169,10 @@
 ?>
                        
                         <br>
-                        <h3>Inscripciones para dar charlas</h3>
+                        <div id= "titulo-inscripciones">
+                          <h3 id="font-titulo">INSCRIPCIONES PARA DAR CHARLAS</h3>
+                        </div>
+                        
 
 
                         <?php
