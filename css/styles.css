@@ -84,3 +84,32 @@ https://www.forosdelweb.com/f53/situar-footer-siempre-final-pagina-1055757/ */
 p {
   text-shadow: 40px 40px 50px #0005 !important;
 }
+
+/*.btn-info:active{
+  margin-right: 1em !important;
+  background-color: #89654A!important;
+  border-color: #89654A !important;
+  color: rgb(32, 25, 0)!important;
+}*/
+
+/* Estilos para botones activos (apretados) */
+.btn-info.active {
+  background-color: rgb(32, 25, 0) !important;
+  color: #e4e2cf !important; /* Color de tipografía blando (gris claro) */
+  border-color:#775840!important;
+}
+
+/* Estilos para botones inactivos (sin ser apretados) */
+.btn-info:not(.active) {
+  background-color: #89654A!important;
+  color: rgb(32, 25, 0) !important;
+  border-color:#775840!important;
+}
+
+/* Estilos para cuando se presiona el botón */
+.btn-info:active {
+  /* Puedes ajustar estos estilos según tus preferencias */
+  transform: translateY(1px)!important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1)!important;
+}
+
