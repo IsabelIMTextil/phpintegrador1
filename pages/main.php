@@ -160,9 +160,12 @@
 <!-- abrir tickets en otra pestaña -->
 
 
-                        <p id="talleres"></p> 
-                        <h4>Talleres simultáneos con cupo limitado. <br> Adquirí tu <a>ticket </a>
-           e inscríbite en el que te gusta:</h4>
+                      
+                        <div id="talleres">
+                          <h4>Talleres simultáneos con cupo limitado.</h4>
+                          <p id="adquiri-tickets">Adquirí tu <a>ticket </a> aquí:</p>
+                        </div>
+                        
            <?php
                   
                   // echo "<td><a class='button [btn btn-warning btn-block]'href='tickets.php' target='_blank'>TICKETS</a></td></tr>"; 
