@@ -177,34 +177,61 @@
                         ?>
                         <!-- agrego segú clase  -->
                         <!-- <form action="../phpintegrador1/datos1.php" method="POST"> -->
+                      
                         <form action="../phpintegrador1/datos1.php" method="POST">
-                        <!-- Para que funcione en WEBHOST hay que cambiar a <form action="datos1.php" method="POST">  -->
-                        
-                        <div class="row" id="cupo">
-                        <div class="form-group row">
-                          <input type="text" class="nombre" placeholder="nombre" name="nombre" required>
-                        </div>
-                        <div class="form-group row">
-                          <input type="text" class="apellido" placeholder="apellido" name="apellido" required>
-                        </div>
-                        <div class="form-group row">
-                          <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="número de teléfono" name="telefono" required>
-                        </div>
+                            <!-- Para que funcione en WEBHOST hay que cambiar a <form action="datos1.php" method="POST">  -->
+                            
+                            <!-- <div class="row" id="cupo">
+                            <div class="form-group row">
+                              <input type="text" class="nombre" placeholder="nombre" name="nombre" required>
+                            </div>
+                            <div class="form-group row">
+                              <input type="text" class="apellido" placeholder="apellido" name="apellido" required>
+                            </div>
+                            <div class="form-group row">
+                              <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="número de teléfono" name="telefono" required>
+                            </div>
 
-                       
-                          <div class="mb-1">
-                          <label for="exampleFormControlInput1" class="form-label" > </label>
-                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico" name="correo" required>
-                          </div>
-                          <div class="mb-1">
-                            <label for="exampleFormControlTextarea1" class="form-label"></label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" name="comentario" placeholder="¿Te gustaría dar una charla? Contanos." cols="1" rows="3" required></textarea>
-                          <p><small>Recuerda incluir un título para tu charla.</small></p>
-                          </div>
+                          
+                              <div class="mb-1">
+                              <label for="exampleFormControlInput1" class="form-label" > </label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico" name="correo" required>
+                              </div>
+                              <div class="mb-1">
+                                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" name="comentario" placeholder="¿Te gustaría dar una charla? Contanos." cols="1" rows="3" required></textarea>
+                              <p><small>Recuerda incluir un título para tu charla.</small></p>
+                              </div>
 
-                          <input type="submit" value="Enviar">
-                          <input type="reset" value="Borrar">
-                        </form>
+                              <input type="submit" value="Enviar">
+                              <input type="reset" value="Borrar"> -->
+                          <div class="d-flex justify-content-center px-5">
+
+                            <div class="container-datos">   
+                                <div class="row">
+                                    <div class="col">
+                                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                                    </div>
+                                    <div class="col">
+                                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label"> </label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="¿Sobre qué quieres hablar?" aria-label="¿Sobre qué quieres hablar?"></textarea>
+                                </div>
+
+                                <div>
+                                    <p class="recordatorio-text-area">Recuerda incluir un título para tu charla</p>
+                                </div> 
+                                
+                                <div class="d-grid gap-2">
+                                    <button type="button"class="btn btn-info active" id="botoncito" aria-pressed="true">ENVIAR</button>
+                                    <button type="button"class="btn btn-info active" id="botoncito2" aria-pressed="true">BORRAR</button>
+                                </div>     
+                            </div>   
+                        </div>                      
+                      </form>
 <!-- termina agrego segú clase  -->
 
                          
