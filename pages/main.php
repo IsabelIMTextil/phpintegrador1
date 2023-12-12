@@ -16,7 +16,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="imagenes/caballo-2.png" class="d-block w-100" alt="Textiles Mapuches">
+                    <img src="imagenes/wichi.png" class="d-block w-100" alt="Textiles Mapuches">
                     <div class="carousel-caption text-right caption-center">
                       <h2 class="bg-dark">Textiles tradicionales del territorio argentino</h2>
                       <p>Charlas sobre cultura, lengua y cosmovisión de los pueblos originarios de Argentina. Talleres sobre técnicas textiles Wichí, Mapuche y del NOA.</p>
@@ -49,19 +49,19 @@
             
             </div>
             <!--  acá termina carousel -->
-            </div>
             
-                <!-- comienzan las cards -->
-            <div class="body">
             
-                <div id="charlas">
+            <!-- comienzan las cards -->
+              <div class="body">
+                  <div id="charlas">
                     <h2>Charlas sobre pueblos originarios</h2>
                     <h5> Cultura, lengua, cosmovisión y técnicas textiles</h5>
-                </div>
+                  </div>
+                  
                   <div class="row">
                         <div class="card-group p-3">
                              
-                        <div class="col-1"> </div>
+                        <!--<div class="col-1"> </div>-->
                         <div class="col-3 m-3">
                           <div class="card-responsive">
                             <img src="imagenes/wichi-tec.jpeg" class=" img-thumbnail rounded" alt="técnica textil wichí">
@@ -72,13 +72,16 @@
                               <p class="card-text">Los tejidos de la cultura Wichí se realizan con la fibra de chaguar o caraguatá, una
                                 planta que se usa desde tiempos prehispánicos con fines... </p>
                               <!-- <p class="card-text"><small class="text-body-secondary">más...</small></p> -->
-                  <?php
-                  echo "<td><a class='button [btn btn-warning btn-block]'href='pages/wichi.php' target='_blank'>más...</a></td></tr>"; 
-                  ?>
+                            <?php
+                            echo "<td><a class='button [btn btn-warning btn-block]'href='pages/wichi.php' target='_blank'>más...</a></td></tr>"; 
+                            ?>
 
-                            </div>
                           </div>
+
                         </div>
+                        
+                      </div>
+
                         <div class="col-3 m-3">
                           <div class="card-responsive">
                             <img src="imagenes/mapuche-tec.jpeg" class="img-thumbnail rounded" alt="técnica textil mapuche">
@@ -90,13 +93,13 @@
                                 lengua mapuche...</p>
                               <!-- <p class="card-text"><small class="text-body-secondary">más...</small></p> -->
                               <?php
-                  
-                  echo "<td><a class='button [btn btn-warning btn-block]'href='pages/mapuche.php' target='_blank'>más...</a></td></tr>"; 
-?>
+                              echo "<td><a class='button [btn btn-warning btn-block]'href='pages/mapuche.php' target='_blank'>más...</a></td></tr>"; 
+                              ?>
 
                             </div>
                           </div>
                         </div>
+
                         <div class="col-3 m-3">
                           <div class="card-responsive">
                             <img src="imagenes/diaguita-tec.jpeg" class="img-thumbnail rounded" alt="técnica textil del NOA">
@@ -108,12 +111,13 @@
                                 urdimbre, conjunto de hilos paralelos, que se...</p>
                               <p class="card-text">
                               <?php
-                  echo "<td><a class='button [btn btn-warning btn-block]'href='pages/noa.php' target='_blank'>más...</a></td></tr>"; 
-                  ?>  
+                              echo "<td><a class='button [btn btn-warning btn-block]'href='pages/noa.php' target='_blank'>más...</a></td></tr>"; 
+                              ?>  
                               </p>
                             </div>
                           </div>
                         </div>
+                        
                         <div class="col-1"> </div>
                      
                       </div>
@@ -134,15 +138,14 @@
                           <h4>Buenos Aires - 11 y 12 Nov. 2023</h4>
                             <p><small>Textiles arqueológicos: en el sitio preincaico de Santa Rosa de Tastil, Salta, se encontraron textiles que formaban parte de ajuares funerarios. Había telas, trenzados, gorros, ondas, redes y cordelería hechos con fibras de llama y de vicuña, fechados entre los años 1336 y 1439.</small></p>
             
-               <!-- <botón conocé expositores - abrir en otra pestaña> -->
+                <!-- <botón conocé expositores - abrir en otra pestaña> -->
                     <!-- <button type="button" class="btn btn-warning" id="nuevo"><a href="pages/expositores.php">Conocé a los expositores</a></button> -->
                            
                     <?php
-                  
-                  echo "<td><a class='button [btn btn-warning btn-block]'href='pages/expositores.php' target='_blank'>Conocé a los expositores</a></td></tr>"; 
-?>
+                    echo "<td><a class='button [btn btn-warning btn-block]'href='pages/expositores.php' target='_blank'>Conocé a los expositores</a></td></tr>"; 
+                    ?>
                     </div>
-            <!-- fin conocé más -->
+                <!-- fin conocé más -->
             
                  <!-- inicio formulario -->
             
@@ -151,7 +154,7 @@
                 <div class="col-sm-3">
                    </div>
                       <div class="col-sm-6">
-<!-- abrir tickets en otra pestaña -->
+            <!-- abrir tickets en otra pestaña -->
             
                   <div class="d-flex justify-content-center" >
                     <div id="subtitulo-talleres">
@@ -182,9 +185,10 @@
                         ?>
                       
                       <div class="d-flex justify-content-center px-5">
-                        <form action="../phpintegrador1/datos1.php" method="POST">
+                       
                           
-                          <div class="container-datos">   
+                        <div class="container-datos">   
+                          <form action="../phpintegrador1/datos1.php" method="POST">
                             <div class="row">
                               <div class="col">
                                   <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
@@ -205,19 +209,15 @@
                               <div class="d-grid gap-2">
                                 <button type="button"class="btn btn-info active" id="botoncito" aria-pressed="true">ENVIAR</button>
                                 <button type="button"class="btn btn-info active" id="botoncito2" aria-pressed="true">BORRAR</button>
-                              </div>     
-                          </div>              
-                        </form>
+                              </div>
+                              <div class="border"></div>     
+                                      
+                          </form>
+                        </div>  
+                        <!-- fin formulario -->
                       </div> 
-<!-- termina agrego segú clase  -->
-                    
-            <div class="border"></div>
-        </div>            
-      </div>
-    <div class="col-sm-3"></div>
-  </div>
-            
-</div>
-            
-                    <!-- fin formulario -->
-    </main>
+                      
+                    <!-- termina agrego segú clase  -->
+         </div>     
+        
+</main>
