@@ -17,7 +17,7 @@
      <!--  empieza  nav  --> 
 <header>
            
-  <nav class="navbar navbar-expand-md navbar-light bg-light scrolling-navbar ">
+  <nav class="navbar navbar-expand-md navbar-light bg-light scrolling-navbar " id="navbar-header">
 
     <div class="container-fluid">
       

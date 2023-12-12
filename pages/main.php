@@ -1,4 +1,5 @@
-<main>
+<body>
+  <main>
     <div class="container-fluid">
         
           <!--  empieza  carousel -->
@@ -139,19 +140,18 @@
             
                  <!-- inicio formulario -->
             
-            <div class="container">
+            <!-- <div class="container">
               <div class="row align-items-start">
                 <div class="col-sm-3">
                    </div>
-                      <div class="col-sm-6">
+                      <div class="col-sm-6"> -->
             <!-- abrir tickets en otra pestaña -->
             
                   <div class="d-flex justify-content-center" >
                     <div id="subtitulo-talleres">
                       <h4>Talleres simultáneos con cupo limitado</h4>
                     </div>
-                  </div>
-                  <div class="d-flex justify-content-center" >
+                    <!--<div class="d-flex justify-content-center" >-->
                     <div id="talleres">
                       <p id="adquiri-tickets">Adquirí tu <a>ticket </a> aquí:</p>
 
@@ -160,22 +160,13 @@
                       echo "<a class='button button-tickets' href='tickets.php' target='_blank'>TICKETS</a>";
                       ?>
                     </div>
-                    
-                  </div>
-                        
-           
-                      <div id= "titulo-inscripciones">
-
+                    <div id= "titulo-inscripciones">
                         <h3 id="font-titulo">INSCRIPCIONES PARA DAR CHARLAS</h3>  
-                      
                       </div>
                         <?php
                              //  require 'conexion.php';
                         ?>
-
-                      <div class="d-flex justify-content-center px-5">
-                        <div class="container-datos">   
-                          <form action="../phpintegrador1/datos1.php" method="POST">
+                        <form action="../phpintegrador1/datos1.php" method="POST">
                             <div class="row">
                               <div class="col">
                                   <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
@@ -200,11 +191,27 @@
                               <div class="border"></div>     
                                       
                           </form>
-                        </div>  
-                        <!-- fin formulario -->
-                      </div> 
+                    
+                  </div>
+                        
+           
                       
+
+                      <!--<div class="d-flex justify-content-center px-5">-->
+                        <!--<div class="container-datos">-->   
+                          
+                      <!--</div> --> 
+                        <!-- fin formulario -->
+                      <!--</div>-->
+
+                    </div>
+
+                 
                     <!-- termina agrego segú clase  -->
-      </div>     
+      </div>  
+    </div>   
         
-</main>
+  </main>
+
+  
+</body>
