@@ -11,23 +11,14 @@
           </div>
           <div class="col-xs-12 col-md-6 col-lg-3">
             <p class="h5 mb-3">Cursos y libros</p>
-            <div class="mb-1"> <a class="text-warning text-decoration-none" href="">Telar horizontal</a></div>
-            <div class="mb-1"> <a class="text-warning text-decoration-none" href="">Telar de cuadros</a></div>
-            <div class="mb-1">  <a class="text-warning text-decoration-none" href="">Diseño de indumentaria</a>  </div>
-            <div class="mb-1">  <a class="text-warning text-decoration-none" href="">Libros</a></div>
-          </div>
-
-          <div class="col-xs-12 col-md-6 col-lg-3">
-            <p class="h5 mb-3">Links</p>
-            <div class="mb-2">    <a class="text-warning text-decoration-none" href="">Términos y condiciones</a></div>
-            <div class="mb-2">   <a class="text-warning text-decoration-none" href="">Políticas de privacidad</a></div>
-            
+            <div class="mb-1"> <a class="text-warning text-decoration-none" href="https://imtextil.com.ar/de-las-clases-y-talleres/">Clases y talleres</a></div>
+            <div class="mb-1">  <a class="text-warning text-decoration-none" href="https://imtextil.com.ar/de-libros-y-telares/">Libros </a></div>
           </div>
 
           <div class="col-xs-12 col-md-6 col-lg-3"> 
               <p class="h5 mb-3">Contacto</p>
-            <div class="mb-2">   <a class="text-warning text-decoration-none" href="">Instagram</a></div>
-            <div class="mb-2">   <a class="text-warning text-decoration-none" href="">Facebook</a></div>
+            <div class="mb-2">   <a class="text-warning text-decoration-none" href="">Mail: diccionario.textil@gmail.com</a></div>
+            <div class="mb-2">   <a class="text-warning text-decoration-none" href="https://www.facebook.com/profile.php?id=100009358550335">Facebook</a></div>
           </div>
 
           <div class="col-xs-12 pt-4">  <p class="text-warning text-center">Copyright - All rights reserved  &#174  2023</p> 
