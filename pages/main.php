@@ -16,7 +16,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="imagenes/mapuches.png" class="d-block w-100" alt="Textiles Mapuches">
+                    <img src="imagenes/caballo-2.png" class="d-block w-100" alt="Textiles Mapuches">
                     <div class="carousel-caption text-right caption-center">
                       <h2 class="bg-dark">Textiles tradicionales del territorio argentino</h2>
                       <p>Charlas sobre cultura, lengua y cosmovisión de los pueblos originarios de Argentina. Talleres sobre técnicas textiles Wichí, Mapuche y del NOA.</p>
@@ -152,23 +152,27 @@
                    </div>
                       <div class="col-sm-6">
 <!-- abrir tickets en otra pestaña -->
-                        
-                      <div id="subtitulo-talleres">
+            
+                  <div class="d-flex justify-content-center" >
+                    <div id="subtitulo-talleres">
                       <h4>Talleres simultáneos con cupo limitado.</h4>
-                      </div>
-                      
-                      <div id="talleres">
-                        <p id="adquiri-tickets">Adquirí tu <a>ticket </a> aquí:</p>
-                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-center" >
+                    <div id="talleres">
+                      <p id="adquiri-tickets">Adquirí tu <a>ticket </a> aquí:</p>
+
+                      <?php
+                      // echo "<td><a class='button [btn btn-warning btn-block]'href='tickets.php' target='_blank'>TICKETS</a></td></tr>"; 
+                      echo "<a class='button button-tickets' href='tickets.php' target='_blank'>TICKETS</a>";
+                      ?>
+                    </div>
+                    
+                  </div>
                         
-           <?php
-                  
-                  // echo "<td><a class='button [btn btn-warning btn-block]'href='tickets.php' target='_blank'>TICKETS</a></td></tr>"; 
-                    echo "<a class='button button-tickets' href='tickets.php' target='_blank'>TICKETS</a>";
-          ?>
+           
                     <div id= "titulo-inscripciones">
-                      <h3 id="font-titulo">INSCRIPCIONES PARA DAR CHARLAS</h3>
-                        
+                      <h3 id="font-titulo">INSCRIPCIONES PARA DAR CHARLAS</h3>  
                     </div>
                         
 
@@ -176,63 +180,35 @@
                         <?php
                              //  require 'conexion.php';
                         ?>
-                        <!-- agrego segú clase  -->
-                        <!-- <form action="../phpintegrador1/datos1.php" method="POST"> -->
                       
+                      <div class="d-flex justify-content-center px-5">
                         <form action="../phpintegrador1/datos1.php" method="POST">
-                            <!-- Para que funcione en WEBHOST hay que cambiar a <form action="datos1.php" method="POST">  -->
-                            
-                            <!-- <div class="row" id="cupo">
-                            <div class="form-group row">
-                              <input type="text" class="nombre" placeholder="nombre" name="nombre" required>
-                            </div>
-                            <div class="form-group row">
-                              <input type="text" class="apellido" placeholder="apellido" name="apellido" required>
-                            </div>
-                            <div class="form-group row">
-                              <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="número de teléfono" name="telefono" required>
-                            </div>
-
                           
-                              <div class="mb-1">
-                              <label for="exampleFormControlInput1" class="form-label" > </label>
-                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico" name="correo" required>
-                              </div>
-                              <div class="mb-1">
-                                <label for="exampleFormControlTextarea1" class="form-label"></label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" name="comentario" placeholder="¿Te gustaría dar una charla? Contanos." cols="1" rows="3" required></textarea>
-                              <p><small>Recuerda incluir un título para tu charla.</small></p>
-                              </div>
-
-                              <input type="submit" value="Enviar">
-                              <input type="reset" value="Borrar"> -->
-                          <div class="d-flex justify-content-center px-5">
-
-                            <div class="container-datos">   
-                                <div class="row">
-                                    <div class="col">
-                                      <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
-                                    </div>
-                                    <div class="col">
-                                      <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
-                                    </div>
+                          <div class="container-datos">   
+                            <div class="row">
+                              <div class="col">
+                                  <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
                                 </div>
-                                <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label"> </label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="¿Sobre qué quieres hablar?" aria-label="¿Sobre qué quieres hablar?"></textarea>
+                                <div class="col">
+                                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
                                 </div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label"> </label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="¿Sobre qué quieres hablar?" aria-label="¿Sobre qué quieres hablar?"></textarea>
+                              </div>
 
-                                <div id="subtitulo-recordatorio">
-                                    <p class="recordatorio-text-area">Recuerda incluir un título para tu charla</p>
-                                </div> 
-                                
-                                <div class="d-grid gap-2">
-                                    <button type="button"class="btn btn-info active" id="botoncito" aria-pressed="true">ENVIAR</button>
-                                    <button type="button"class="btn btn-info active" id="botoncito2" aria-pressed="true">BORRAR</button>
-                                </div>     
-                            </div>   
-                        </div>                      
-                      </form>
+                              <div id="subtitulo-recordatorio">
+                                <p class="recordatorio-text-area">Recuerda incluir un título para tu charla</p>
+                              </div> 
+                              
+                              <div class="d-grid gap-2">
+                                <button type="button"class="btn btn-info active" id="botoncito" aria-pressed="true">ENVIAR</button>
+                                <button type="button"class="btn btn-info active" id="botoncito2" aria-pressed="true">BORRAR</button>
+                              </div>     
+                          </div>              
+                        </form>
+                      </div> 
 <!-- termina agrego segú clase  -->
                     
             <div class="border"></div>
