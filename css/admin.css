@@ -19,7 +19,7 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   width: 300px;
-  background: rgb(226, 186, 56);
+  background: rgb(187, 164, 89);
   border-radius: 10px;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
 }

@@ -3,7 +3,7 @@
        
             <!--  empieza  carousel -->
             <div class="row">
-              <div class="col-12">
+              <div class="col-12 z-n1">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -59,17 +59,17 @@
                     <h5> Cultura, lengua, cosmovisión y técnicas textiles</h5>
                 </div>
                   <div class="row">
-                        <div class="card-group p-3">
+                        <div class="card-group">
                              
-                        <div class="col-1"> </div>
-                        <div class="col-3 m-3">
+                        <div class="col"> </div>
+                        <div class="col m-3 ">
                           <div class="card-responsive">
                             <img src="imagenes/wichi-tec.jpeg" class=" img-thumbnail rounded" alt="técnica textil wichí">
-                            <div class="card-body">
+                            <div class="card-body p-0">
                               <button type="button" class="btn btn-warning btn-sm">Charla y vídeo</button>
                               <button type="button" class="btn btn-info btn-sm">Demostración</button>
                               <h5 class="card-title">Tejido Wichí </h5>
-                              <p class="card-text">Los tejidos de la cultura Wichí se realizan con la fibra de chaguar o caraguatá, una
+                              <p class="card-text row-4">Los tejidos de la cultura Wichí se realizan con la fibra de chaguar o caraguatá, una
                                 planta que se usa desde tiempos prehispánicos con fines... </p>
                               <!-- <p class="card-text"><small class="text-body-secondary">más...</small></p> -->
                   <?php
@@ -79,7 +79,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-3 m-3">
+                        <div class="col m-3">
                           <div class="card-responsive">
                             <img src="imagenes/mapuche-tec.jpeg" class="img-thumbnail rounded" alt="técnica textil mapuche">
                             <div class="card-body">
@@ -97,7 +97,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-3 m-3">
+                        <div class="col m-3">
                           <div class="card-responsive">
                             <img src="imagenes/diaguita-tec.jpeg" class="img-thumbnail rounded" alt="técnica textil del NOA">
                             <div class="card-body">
@@ -114,7 +114,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-1"> </div>
+                        <div class="col"> </div>
                      
                       </div>
                     </div>
@@ -182,37 +182,37 @@
                         
                         <div class="row" id="cupo">
                         <div class="form-group row">
-                          <input type="text" class="nombre" placeholder="nombre" name="nombre" required>
+                          <input type="text" class="form-control" placeholder="nombre" name="nombre" required>
                         </div>
                         <div class="form-group row">
-                          <input type="text" class="apellido" placeholder="apellido" name="apellido" required>
+                          <input type="text" class="form-control" placeholder="apellido" name="apellido" required>
                         </div>
                         <div class="form-group row">
-                          <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="número de teléfono" name="telefono" required>
+                          <input type="text" class="form-control"  placeholder="número de teléfono" name="telefono" required>
+                        </div>
+                        <div class="form-group row">
+                          <input type="text" class="form-control"  placeholder="correo electrónico" name="correo" required>
                         </div>
 
-                       
-                          <div class="mb-1">
-                          <label for="exampleFormControlInput1" class="form-label" > </label>
-                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico" name="correo" required>
-                          </div>
-                          <div class="mb-1">
-                            <label for="exampleFormControlTextarea1" class="form-label"></label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" name="comentario" placeholder="¿Te gustaría dar una charla? Contanos." cols="1" rows="3" required></textarea>
+                        <div class="row">
+                          <textarea class="form-control"  name="comentario" placeholder="¿Te gustaría dar una charla? Contanos." required></textarea>
                           <p><small>Recuerda incluir un título para tu charla.</small></p>
-                          </div>
+                        </div>
 
-                          <input type="submit" value="Enviar">
-                          <input type="reset" value="Borrar">
+                          <div class="row">
+                          <input class="btn btn-success mb-1" type="submit" value="Enviar">
+                          <input class="btn btn-warning " type="reset" value="Borrar">
+                          </div>
+                          <br><br>
                         </form>
+                        
 <!-- termina agrego segú clase  -->
 
                          
                         
                        
                     
-                        <div class="border"></div>
-                      </div>
+                        
                     
                   </div>
                     <div class="col-sm-3"></div>

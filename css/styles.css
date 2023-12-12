@@ -1,50 +1,49 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
 
 .navbar {
-  box-shadow: 0px 2px 5px #777;
-  height: 80px;
-}
+    box-shadow: 0px 2px 5px #777;
+    height: 80px;
+    z-index: 99;
+    
+   }
+
 
 .nav-link {
-  color: black !important;
-  font-size: small;
-}
-.nav-link:hover {
-  background-color: #f9c74f;
-}
-.login-nav {
-  margin-left: 430px;
+    color: black !important;  
+    font-size: small;
+    
 }
 
 .container {
-  max-height: 100px;
-}
+    max-height: 100px;}
 
 #arq {
-  background-color: rgb(143, 136, 119);
-  color: aliceblue;
-  box-shadow: 0px 2px 5px #777;
+    background-color: rgb(143, 136, 119);
+    color: aliceblue;
+    box-shadow: 0px 2px 5px #777;
+    
+    
 }
 
 #textil {
-  box-shadow: 0px 2px 5px #777;
+    box-shadow: 0px 2px 5px #777;
 }
 
 #charlas {
-  text-align: center;
-  /* background-color: #f9c74f; */
+    text-align: center;
+    /* background-color: #f9c74f; */
 }
 
 .card-responsive:hover {
-  transform: scale(1.1);
-}
+    transform: scale(1.1);
+  }
 
 #nuevo {
-  background-color: #f9c74f;
+    background-color: #f9c74f;
+    
 }
 
 /* form {
@@ -65,22 +64,49 @@
     width: 500px;} */
 
 #submit {
-  border-radius: 7px;
-  border-color: #0a0a09;
+    border-radius: 7px;
+    border-color: #0a0a09;
 }
 
-#footer {
-  height: 150px;
-  margin-top: 450px;
+/* #footer {
+    
+    height: 150px;
+    margin-top: 500px;
+    
+} */
+
+#fondo{
+    background-color: #86744a;
+    
 }
 
-/* .navbar {
+ul{
+    list-style: none !important;
+}
+
+a{
+    color: rgb(0, 0, 0) !important;
+    list-style: none !important;
+}
+
+    /* .navbar {
         background: rgba(0, 0, 0, 0.178);
     } */
 
 /* 
 https://www.forosdelweb.com/f53/situar-footer-siempre-final-pagina-1055757/ */
 
-p {
-  text-shadow: 40px 40px 50px #0005 !important;
+p{
+    text-shadow: 40px 40px 50px #0005 !important;
+}
+
+.mapuches{
+    margin-bottom: 200px;
+    background-color: #0a0a09 !important;
+}
+
+
+li{
+    color: white !important;
+    list-style: none;
 }

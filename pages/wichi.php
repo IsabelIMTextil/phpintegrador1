@@ -1,8 +1,78 @@
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-   
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/ticket.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+ 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <title>WICHIS</title>
+</head>
+<body>
+    
 <!-- empieza bootstrap -->
+
+<!--START NAV-->
+
+<header>
+           
+  <nav class="navbar navbar-expand-md navbar-light bg-light scrolling-navbar ">
+
+    <div class="container-fluid">
+      
+      <a href="../index.php"><img src="../imagenes/logo.png" alt="Logo" width="150" height="70" class="d-inline-block align-text-top"></a>
+      
+
+      <a class="navbar-brand" href="#"><strong>Charlas y talleres</strong></a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse bg-light" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#nuevo">Lugar y fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#charlas">Charlas y vídeos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#talleres">Talleres: reservá tu lugar</a>
+          </li>
+          
+          <li class="nav-4">
+            <a class="nav-link active" aria-current="page" href="#presentacion">Dar una charla</a>
+          </li>
+          <!-- <li> <a  class="nav-link active" href="tickets.php"  target="_parent">Tickets</a></li> -->
+           <li> <a  class="nav-link active login-nav " href="admin.php"  target="_parent">Login</a></li>
+      
+      
+      
+                      
+       
+        </ul>
+       
+      </div>
+    </div>
+</nav> 
+
+</header>
+
+<body>
+    
+
+<!--FIN NAV-->
 <!-- maría -->
 
 <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -72,29 +142,103 @@
       </div>
     </div>
   </div>
-</div>
 
 
-<div class="row row-cols-1 row-cols-md-2 g-4">
+
+  <!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
   <div class="col">
     <div class="card">
-      <img src="imagenes/red.jpeg" class="card-img-top" alt="...">
+      <img src="../imagenes/red.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Tejido en red</h5>
         <p class="card-text">Actualmente se confeccionan redes y despeinadoras para la pesca, que es la base económica de los pueblos de la región chaqueña</p>
       </div>
     </div>
   </div>
+
+
+
+
+
+<!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
+  <div class="col">
+    <div class="card">
+    <iframe  class="m-auto p-1" width="100%" height="315" src="https://www.youtube.com/embed/DOMXpNCDI_Y?si=s9kptASdrbY9XmSv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+        
+    <iframe class="m-auto p-1" width="100%" height="315" src="https://www.youtube.com/embed/l_ORAp39MAo?si=e-qH6lKXi-xcXrjB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+    </div>
 </div>
- 
 
 
- 
-
-<iframe width="240" height="134" src="https://www.youtube.com/watch?v=DOMXpNCDI_Y" title="Ma del Carmen T 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe width="240" height="134" src="https://www.youtube.com/watch?v=l_ORAp39MAo" title="Ma del Carmen T 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
+  
+    
 
 
 
+</div>
+<!--TERMINAN CARDS-->
+
+<!--EMPIEZA FOOTER-->
+
+    <footer id="footer">
+
+<div>
+       
+    <div>
+      <div class="row footer">
+        <div class="row p-5 mt-9 pb-1 text-white " id="fondo">
+
+          <div class="col-xs-12 col-md-6 col-lg-3">  
+            <p class="h3">De nosotros </p>
+            <p class="text-decoration-none">Desde Buenos Aires, Argentina, impartimos clases presenciales y a distancia.</p>
+          </div>
+          
+          <div class="col-xs-12 col-md-6 col-lg-3 text-white">
+            <ul>
+            <p class="h5 mb-3">Cursos y libros</p>
+          <li><a href="#">Telar horizontal</a></li>
+          <li><a href="#">Telar de cuadros</a></li>
+          <li><a href="#">Diseño de indumentaria</a></li>
+          <li><a href="#">Libros</a></li>
+        </ul>
+          </div>
+
+          <div class="col-xs-12 col-md-6 col-lg-3">
+           
+            
+            <ul>
+            <p class="h5 mb-3">Links</p>
+            <li><a href="#">Términos y condiciones</a></li>
+          <li><a href="#">Políticas de privacidad</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-12 col-md-6 col-lg-3 text-white"> 
+              
+            <ul>
+            <p class="h5 mb-3">Contacto</p>
+               <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-12 pt-4">  
+            <p class="text-center">Copyright - All rights reserved  &#174  2023</p> 
+        </div>
+            
+      
+      </div>
+    </div>
+
+
+    </footer> 
+
+    
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
       

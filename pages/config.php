@@ -9,11 +9,10 @@ const DB_PASSWORD = "";
 /**/
 
 // 000webhost
-/*const DB_USER = "id21574541_isabel";
-const DB_PASSWORD = "Isa1234.";
+/*const DB_USER = "id21546159";
+const DB_PASSWORD = "";
 const DB_CHARSET = "utf8";
-const DB_NAME = "id21574541_oradores_textiles"; (el nombre de la tabla en webhost es "Oradores"
-
+const DB_NAME = "id21546159";
 */
 const BASE_URL= "http://localhost:8080/";
 
