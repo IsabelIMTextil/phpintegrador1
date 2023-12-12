@@ -169,3 +169,15 @@ p {
   margin-top: 1.5em;
 }
 
+
+.card-responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.img-container img {
+  width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+  height: auto; /* Se mantendrá la proporción original de la imagen */
+}
