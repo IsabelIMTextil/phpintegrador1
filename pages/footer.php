@@ -6,17 +6,17 @@
       <div class="row">
         <div class="row p-5 mt-9 pb-1 bg-secondary text-warning">
 
-          <div class="col-xs-12 col-md-6 col-lg-3">  <p class="h3">De nosotros </p>
-            <p class="text-warning text-decoration-none">Desde Buenos Aires, Argentina, impartimos clases presenciales y a distancia.</p>
+          <div class="col-xs-12 col-md-6 col-lg-3">  
+            
           </div>
           <div class="col-xs-12 col-md-6 col-lg-3">
-            <p class="h5 mb-3">Cursos y libros</p>
+          <p class="h5">Desde Buenos Aires, Argentina </p>
             <div class="mb-1"> <a class="text-warning text-decoration-none" href="https://imtextil.com.ar/de-las-clases-y-talleres/">Clases y talleres</a></div>
             <div class="mb-1">  <a class="text-warning text-decoration-none" href="https://imtextil.com.ar/de-libros-y-telares/">Libros </a></div>
           </div>
 
           <div class="col-xs-12 col-md-6 col-lg-3"> 
-              <p class="h5 mb-3">Contacto</p>
+              <p class="h5 mb-3">Vías de Contacto</p>
             <div class="mb-2">   <a class="text-warning text-decoration-none" href="">Mail: diccionario.textil@gmail.com</a></div>
             <div class="mb-2">   <a class="text-warning text-decoration-none" href="https://www.facebook.com/profile.php?id=100009358550335">Facebook</a></div>
           </div>
