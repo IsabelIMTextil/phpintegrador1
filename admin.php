@@ -1,6 +1,6 @@
 <?php
 
-require "pages/header.php";
+require "./pages/header.php";
 
 ?>
 <!DOCTYPE html>
@@ -14,29 +14,19 @@ require "pages/header.php";
   <body>
     <div class="center">
       
-      <form method="post">
+      <form method="POST" action="./panel/loguear.php">
         <div class="txt_field">
-          <input type="text" required>
+          <input type="text" name="usuario" required>
           <span></span>
           <label>Usuario</label>
         </div>
         <div class="txt_field">
-          <input type="password" required>
+          <input type="password" name="clave" required>
           <span></span>
           <label>Password</label>
         </div>
         <div class="pass">Olvidó su contraseña?</div>
-        <!-- <input type="submit" value="Login" > -->
-
-        <!-- boton login -->
-        <?php
-                  
-                  echo "<td><a class='button [btn btn-primary btn-block]'href='conex.php' target='_blank'>Login</a></td></tr>"; 
-?>
-
-
-
-
+        <input type="submit" value="Login">
         <div class="signup_link">
           No es miembro? <a href="#">Registrarse</a>
         </div>
@@ -49,5 +39,5 @@ require "pages/header.php";
 </html>
 
 <?php
-require "pages/footer.php";
+require "./pages/footer.php";
 ?>

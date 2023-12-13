@@ -228,7 +228,7 @@ if(!isset($usuario)){
     </body>
     </html>
 
-    echo "<a href='./panel/salir.php'> Salir </a>";
+    
 <?php
 }
 ?>
