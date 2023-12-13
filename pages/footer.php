@@ -7,30 +7,30 @@
         
 <!-- bootstrap -->
 
-<table class="table table-warning table-borderless">
+<table class="table table-warning table-borderless table-hover">
   <thead>
     <tr>
-      <th scope="col"> </th>
-      <th scope="col">Desde Buenos Aires, Argentina</th>
+      <th scope="col" class="bg-warning"> </th>
+      <th scope="col" >Desde Buenos Aires, Argentina</th>
       <th scope="col">Vías de contacto</th>
       
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row"></th>
+      <th scope="row" class="bg-warning"></th>
       <td><a class="text-decoration-none" href="https://imtextil.com.ar/de-las-clases-y-talleres/">Clases y talleres</a></td>
       <td><a class="text-decoration-none" href="">Mail: diccionario.textil@gmail.com</a></td>
       
     </tr>
     <tr>
-      <th scope="row"></th>
+      <th scope="row" class="bg-warning"></th>
       <td> <a class="text-decoration-none" href="https://imtextil.com.ar/de-libros-y-telares/">Libros </a></td>
       <td> <a class="text-decoration-none" href="https://www.facebook.com/profile.php?id=100009358550335">Facebook</a></td>
       
     </tr>
     <tr>
-      <th scope="row"></th>
+      <th scope="row" class="bg-warning"> </th>
       <td colspan="2"> <p class="text-center">Copyright - All rights reserved  &#174  2023</p></td>
      
     </tr>
