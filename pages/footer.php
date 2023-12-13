@@ -1,32 +1,45 @@
 <footer>
 <!-- aquí footer -->
-<div class="footer">
+<div class="footer ">
        
-    <div class="" id="footer">
-      <div class="row">
-        <div class="row p-5 mt-9 pb-1 bg-secondary text-warning">
+    <div class="" id="footer" >
+      <div class="row ">
+        
+<!-- bootstrap -->
 
-          <div class="col-xs-12 col-md-6 col-lg-3">  
-            
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-3">
-          <p class="h5">Desde Buenos Aires, Argentina </p>
-            <div class="mb-1"> <a class="text-warning text-decoration-none" href="https://imtextil.com.ar/de-las-clases-y-talleres/">Clases y talleres</a></div>
-            <div class="mb-1">  <a class="text-warning text-decoration-none" href="https://imtextil.com.ar/de-libros-y-telares/">Libros </a></div>
-          </div>
-
-          <div class="col-xs-12 col-md-6 col-lg-3"> 
-              <p class="h5 mb-3">Vías de Contacto</p>
-            <div class="mb-2">   <a class="text-warning text-decoration-none" href="">Mail: diccionario.textil@gmail.com</a></div>
-            <div class="mb-2">   <a class="text-warning text-decoration-none" href="https://www.facebook.com/profile.php?id=100009358550335">Facebook</a></div>
-          </div>
-
-          <div class="col-xs-12 pt-4">  <p class="text-warning text-center">Copyright - All rights reserved  &#174  2023</p> 
-        </div>
-            
+<table class="table table-warning table-borderless">
+  <thead>
+    <tr>
+      <th scope="col"> </th>
+      <th scope="col">Desde Buenos Aires, Argentina</th>
+      <th scope="col">Vías de contacto</th>
       
-      </div>
-    </div>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td><a class="text-decoration-none" href="https://imtextil.com.ar/de-las-clases-y-talleres/">Clases y talleres</a></td>
+      <td><a class="text-decoration-none" href="">Mail: diccionario.textil@gmail.com</a></td>
+      
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td> <a class="text-decoration-none" href="https://imtextil.com.ar/de-libros-y-telares/">Libros </a></td>
+      <td> <a class="text-decoration-none" href="https://www.facebook.com/profile.php?id=100009358550335">Facebook</a></td>
+      
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td colspan="2"> <p class="text-center">Copyright - All rights reserved  &#174  2023</p></td>
+     
+    </tr>
+  </tbody>
+</table>
+
+</div>
+</div>
+</div>
 
 <!-- fin footer -->
     </footer>
