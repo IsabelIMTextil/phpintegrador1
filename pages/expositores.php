@@ -63,12 +63,7 @@ $conn->close();
             <a class="nav-link active" aria-current="page" href="#presentacion">Dar una charla</a>
           </li>
           <!-- <li> <a  class="nav-link active" href="tickets.php"  target="_parent">Tickets</a></li> -->
-           <li> <a  class="nav-link active login-nav " href="admin.php"  target="_parent">Login</a></li>
-      
-      
-      
-                      
-       
+               
         </ul>
        
       </div>
@@ -87,28 +82,40 @@ if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
        
         ?>        
-        
+
+    
     <div class="row">
         <div class="col-12">
 <table class="table table-border table-hover text-center">
   <thead class="bg-warning">
     <tr class="bg-warning-subtle">
-      <th >#</th>
-      <th >Nombre</th>
-      <th >Apellido</th>
-      <th >Tema</th>
+    <th class="col-1">#</th>
+          <th class="col-2">Nombre</th>
+          <th class="col-2">Apellido</th>
+          <th class="col-3">Tema</th>
+          <th class="col-2"></th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <th class="col-1"><?= $row['id_orador'] ?></th>
-      <td class="col-2"><?= $row['nombre'] ?></td>
-      <td class="col-2"><?= $row['apellido'] ?></td>
-      <td class="col-4"><?= $row['tema'] ?></td>
-    </tr>
-   
-  </tbody>
-</table>
+  </table>
+  </div>
+    </div>
+
+    <div>
+            <table class="table table-border table-hover text-center">
+    <tbody>
+        <tr>
+          <th class="col-1"><?= $row['id_orador'] ?></th>
+          <td class="col-2"><?= $row['nombre'] ?></td>
+          <td class="col-2"><?= $row['apellido'] ?></td>
+          <td class="col-3"><?= $row['tema'] ?></td>
+          <td class="col-2">
+          <div class="col">
+        </div>
+          </td> 
+        </tr>
+      </tbody>
+    </table>
+
 </div>
 </div>
 <?php 
@@ -117,63 +124,13 @@ if ($result->num_rows > 0) {
 ?>   
 
 
-
-
-<!-- <footer id="">
-
-<div>
-       
-    <div>
-      <div class="row">
-        <div class="row p-4 text-white w-100" id="fondo">
-
-          <div class="col-xs-12 col-md-6 col-lg-3">  
-            <p class="h3">De nosotros </p>
-            <p class="text-decoration-none">Desde Buenos Aires, Argentina, impartimos clases presenciales y a distancia.</p>
-          </div>
-          
-          <div class="col-xs-12 col-md-6 col-lg-3 text-white">
-            <ul>
-            <p class="h5 mb-3">Cursos y libros</p>
-          <li><a href="#">Telar horizontal</a></li>
-          <li><a href="#">Telar de cuadros</a></li>
-          <li><a href="#">Diseño de indumentaria</a></li>
-          <li><a href="#">Libros</a></li>
-        </ul>
-          </div>
-
-          <div class="col-xs-12 col-md-6 col-lg-3">
-           
-            
-            <ul>
-            <p class="h5 mb-3">Links</p>
-            <li><a href="#">Términos y condiciones</a></li>
-          <li><a href="#">Políticas de privacidad</a></li>
-            </ul>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-3 text-white"> 
-              
-            <ul>
-            <p class="h5 mb-3">Contacto</p>
-               <li><a href="#">Instagram</a></li>
-          <li><a href="#">Facebook</a></li>
-            </ul>
-          </div>
-
-          <div class="col-12">  
-            <p class="text-center">Copyright - All rights reserved  &#174  2023</p> 
-        </div>
-            
-      
-      </div>
-    </div>
-
-
-    </footer>  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <?php
+   
+   <!-- <footer "">
+   <?php
  require "footer.php"
  ?>
+
+
 </body>
 </html>

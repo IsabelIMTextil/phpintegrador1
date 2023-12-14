@@ -161,12 +161,8 @@
 
 
                         <p id="talleres"></p> 
-                        <h4>Talleres simultáneos con cupo limitado. <br> Adquirí tu <a>ticket </a>
-           e inscríbite en el que te gusta:</h4>
-           <?php
-                  
-                  echo "<td><a class='button [btn btn-warning btn-block]'href='tickets.php' target='_blank'>TICKETS</a></td></tr>"; 
-?>
+                        <h4>Talleres simultáneos con cupo limitado. <br> Adquirí tu ticket aquí:   <?php          echo "<td><a class='button button-tickets' href='tickets.php' target='_blank'>TICKETS</a></td>"; 
+?></h4>
                        
                         <br>
                         <h3>Inscripciones para dar charlas</h3>

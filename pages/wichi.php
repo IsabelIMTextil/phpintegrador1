@@ -12,7 +12,7 @@
   <div class="col">
     <div class="card">
          <div class="card-body">
-         <a href="../pages/main.php">A página principal</a>
+         <a href="../index.php">A página principal</a>
       </div>
     </div>
   </div>

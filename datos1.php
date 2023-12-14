@@ -39,7 +39,7 @@ $tema=$_POST["comentario"]; ;
  if ($conexionMysql){
      echo "<br>" ." ok coneccion ";
      //id_orador , nombre	, apellido	, mail	, tema, fecha_alta
-     $consulta = $conexionMysql->prepare("INSERT INTO Oradores ( nombre	, apellido	, mail	, telefono, tema) VALUES (?, ?,?,?,?)");
+     $consulta = $conexionMysql->prepare("INSERT INTO oradores ( nombre	, apellido	, mail	, telefono, tema) VALUES (?, ?,?,?,?)");
  
  }else{
      echo "<br>" ."NO ok coneccion  ";
