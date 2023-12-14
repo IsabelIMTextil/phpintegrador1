@@ -112,7 +112,7 @@
 <!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
 <div class="col">
     <div class="card">
-    <iframe  class="m-auto p-1" width="80%" height="315" src="https://www.youtube.com/watch?v=DJC50gjxbA8&t=49s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+    <iframe class="m-auto p-1" width="80%" height="315" src="https://www.youtube.com/embed/DJC50gjxbA8?si=c-U_kEllcTc7KBP7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
     </div>
 </div>

@@ -32,6 +32,7 @@
       <img src="../imagenes/maria.png" class=" img-thumbnail rounded" alt="María del Carmen Toribio">
       <div class="card-body">
         <h5 class="card-title">María del Carmen Toribio - Cultura Wichí</h5>
+        <p>De Ing. Juárez, Formosa. </p>
         
       </div>
     </div>
@@ -90,27 +91,13 @@
       <div class="card-body">
         <h5 class="card-title">El palo santo</h5>
         <p class="card-text">es un árbol nativo del Gran Chaco sudamericano, su madera es muy preciada. Los wichís la usan para tratamientos médicos, y para tallar o tornear utensilios de cocina y artesanías que representan la fauna del monte. Por otra parte, existe la creencia de qu el humo de esta madera ahuyenta los espíritus malignos. De ella se obtiene el color azul verdoso, y de las hojas del palo santo, el amarillo para teñir textiles</p>
+        <p >Actualmente se confeccionan redes y despeinadoras para la pesca, que es la base económica de los pueblos de la región chaqueña</p>
       </div>
     </div>
   </div>
 </div>
 
 
-<div class="row row-cols-1 row-cols-md-2 g-4">
-  <div class="col">
-    <div class="card">
-      <img src="imagenes/red.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Tejido en red</h5>
-        <p class="card-text">Actualmente se confeccionan redes y despeinadoras para la pesca, que es la base económica de los pueblos de la región chaqueña</p>
-      </div>
-    </div>
-  </div>
-</div>
- 
-
-
- 
 
 
 <!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
