@@ -7,7 +7,7 @@
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="imagenes/wichí.jpeg" class="d-block w-100" alt="Textiles Wichí" style="height: 400px;">
+                    <img src="imagenes/wichí.jpg" class="d-block w-100" alt="Textiles Wichí" style="height: 400px;">
                     <div class="carousel-caption text-right caption-center">
                       <h2 class="bg-dark">Textiles tradicionales del territorio argentino</h2>
                       <p>Charlas sobre cultura, lengua y cosmovisión de los pueblos originarios de Argentina. Talleres sobre técnicas textiles Wichí, Mapuche y del NOA.</p>
@@ -16,7 +16,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="imagenes/mapuches.png" class="d-block w-100" alt="Textiles Mapuches" style="height: 400px;">
+                    <img src="imagenes/mapuche2.jpg" class="d-block w-100" alt="Textiles Mapuches" style="height: 400px;">
                     <div class="carousel-caption text-right caption-center">
                       <h2 class="bg-dark">Textiles tradicionales del territorio argentino</h2>
                       <p>Charlas sobre cultura, lengua y cosmovisión de los pueblos originarios de Argentina. Talleres sobre técnicas textiles Wichí, Mapuche y del NOA.</p>
@@ -26,7 +26,7 @@
                   </div>
             
                   <div class="carousel-item">
-                    <img src="imagenes/diaguitas.png" class="d-block w-100" alt="Textiles del NOA" style="height: 400px;">
+                    <img src="imagenes/noa2.jpg" class="d-block w-100" alt="Textiles del NOA" style="height: 400px;">
                     <div class="carousel-caption text-right caption-center">
                       <h2 class="bg-dark">Textiles tradicionales del territorio argentino</h2>
                       <p>Charlas sobre cultura, lengua y cosmovisión de los pueblos originarios de Argentina. Talleres sobre técnicas textiles Wichí, Mapuche y del NOA.</p>
