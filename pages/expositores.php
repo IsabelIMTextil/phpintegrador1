@@ -105,6 +105,7 @@ if ($result->num_rows > 0) {
       <td class="col-2"><?= $row['nombre'] ?></td>
       <td class="col-2"><?= $row['apellido'] ?></td>
       <td class="col-4"><?= $row['tema'] ?></td>
+      
     </tr>
    
   </tbody>

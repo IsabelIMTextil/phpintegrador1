@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 $usuario = $_SESSION['username'];
 
@@ -147,8 +148,8 @@ if(!isset($usuario)){
           <td class="col-3"><?= $row['tema'] ?></td>
           <td class="col-2">
           <div class="col">
-            <button type="button" class="btn btn-primary">EDITAR</button>
-        <button type="button" class="btn btn-danger">BORRAR</button>
+          <a href="<?php echo $row['id_orador'];?>"><button type="button" class="btn btn-primary" > EDITAR</button></a> 
+        <a href="./eliminar.php?id=<?php echo $row['id_orador'];?>"><button type="button" class="btn btn-danger" >BORRAR</button>
         </div>
           </td>
           
