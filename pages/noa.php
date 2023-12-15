@@ -95,14 +95,14 @@
 <!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
 <div class="col">
     <div class="card">
-    <iframe class="m-auto p-1" width="80%"  height="315" src="https://www.youtube.com/embed/4D-s2LdMUls?si=7D0LxyX41QOH7adH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="m-auto p-1" width="60%"  height="315" src="https://www.youtube.com/embed/4D-s2LdMUls?si=7D0LxyX41QOH7adH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
       <br><br>
         
-      <iframe class="m-auto p-1" width="80%"  height="315" src="https://www.youtube.com/embed/zSJsVMYS-HA?si=fV1_fTxPIc1oKiLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe class="m-auto p-1" width="60%"  height="315" src="https://www.youtube.com/embed/zSJsVMYS-HA?si=fV1_fTxPIc1oKiLT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
-
+<br><br>
 </body>
 
 

@@ -11,8 +11,8 @@
                     <div class="carousel-caption text-right caption-center">
                       <h2 class="bg-dark">Textiles tradicionales del territorio argentino</h2>
                       <p>Charlas sobre cultura, lengua y cosmovisión de los pueblos originarios de Argentina. Talleres sobre técnicas textiles Wichí, Mapuche y del NOA.</p>
-                      <button type="button" class="btn btn-outline-warning" >Para dar charlas</button>
-                      <button type="button" class="btn btn-outline-success">Inscripciones</button>
+                      <button type="button" class="btn btn-outline-warning" > <a href="#talleres">Para dar charlas</a> </button>
+                      <button type="button" class="btn btn-outline-success"><a href="#talleres">Inscripciones</a></button>
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -20,8 +20,8 @@
                     <div class="carousel-caption text-right caption-center">
                       <h2 class="bg-dark">Textiles tradicionales del territorio argentino</h2>
                       <p>Charlas sobre cultura, lengua y cosmovisión de los pueblos originarios de Argentina. Talleres sobre técnicas textiles Wichí, Mapuche y del NOA.</p>
-                      <button type="button" class="btn btn-outline-warning">Para dar charlas</button>
-                      <button type="button" class="btn btn-outline-success">Inscripciones</button>
+                      <button type="button" class="btn btn-outline-warning"> <a href="#talleres">Para dar charlas</a></button>
+                      <button type="button" class="btn btn-outline-success"><a href="#talleres">Inscripciones</a></button>
                     </div>
                   </div>
             
@@ -30,8 +30,8 @@
                     <div class="carousel-caption text-right caption-center">
                       <h2 class="bg-dark">Textiles tradicionales del territorio argentino</h2>
                       <p>Charlas sobre cultura, lengua y cosmovisión de los pueblos originarios de Argentina. Talleres sobre técnicas textiles Wichí, Mapuche y del NOA.</p>
-                      <button type="button" class="btn btn-outline-warning">Para dar charlas</button>
-                      <button type="button" class="btn btn-outline-success">Inscripciones</button>
+                      <button type="button" class="btn btn-outline-warning"> <a href="#talleres">Para dar charlas</a></button>
+                      <button type="button" class="btn btn-outline-success"> <a href="#talleres">Inscripciones</a> </button>
                     </div>
             
                   </div>
@@ -66,7 +66,7 @@
                           <div class="card-responsive">
                             <img src="imagenes/wichi-tec.jpeg" class=" img-thumbnail rounded" alt="técnica textil wichí">
                             <div class="card-body">
-                              <button type="button" class="btn btn-warning btn-sm">Charla y vídeo</button>
+                              <button type="button" class="btn btn-warning btn-sm">Charla y vídeo <a>(en vivo)</a></button>
                               <button type="button" class="btn btn-outline-success">Demostración</button>
                               <h5 class="card-title">Tejido Wichí </h5>
                               <p class="card-text">Los tejidos de la cultura Wichí se realizan con la fibra de chaguar o caraguatá, una
@@ -83,8 +83,10 @@
                           <div class="card-responsive">
                             <img src="imagenes/mapuche-tec.jpeg" class="img-thumbnail rounded" alt="técnica textil mapuche">
                             <div class="card-body">
-                              <button type="button" class="btn btn-warning btn-sm">Charla</button>
-                              <button type="button" class="btn btn-outline-success">Demostración</button>
+                              <button type="button" class="btn btn-warning btn-sm">Charla <a>(en vivo)</a>
+                          
+                              </button>
+                              <button type="button" class="btn btn-outline-success">Demostración </button>
                               <h5 class="card-title">Técnica textil Mapuche</h5>
                               <p class="card-text">Los tejidos de la cultura Mapuche se realizan en telar vertical o "witral", que en
                                 lengua mapuche...</p>
@@ -101,7 +103,7 @@
                           <div class="card-responsive">
                             <img src="imagenes/diaguita-tec.jpeg" class="img-thumbnail rounded" alt="técnica textil del NOA">
                             <div class="card-body">
-                              <button type="button" class="btn btn-warning btn-sm">Charla y vídeos</button>
+                              <button type="button" class="btn btn-warning btn-sm">Charla y vídeos <a>(en vivo)</a></button>
                               <button type="button" class="btn btn-outline-success" >Demostración</button>
                               <h5 class="card-title">Técnica textil del NOA</h5>
                               <p class="card-text">El tejido en telar es una de las principales técnicas textiles del NOA. Se arma una

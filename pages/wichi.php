@@ -1,5 +1,6 @@
 
- 
+ <body>
+  
 <!-- LOGO -->
 </div>
 <div class="row row-cols-1 row-cols-md-4 g-4">
@@ -104,9 +105,11 @@
 <!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
 <div class="col">
     <div class="card">
-    <iframe  class="m-auto p-1" width="80%" height="315" src="https://www.youtube.com/embed/DOMXpNCDI_Y?si=s9kptASdrbY9XmSv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+    <iframe  class="m-auto p-1" width="60%" height="315" src="https://www.youtube.com/embed/DOMXpNCDI_Y?si=s9kptASdrbY9XmSv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
         
-    <iframe class="m-auto p-1" width="80%" height="315" src="https://www.youtube.com/embed/l_ORAp39MAo?si=e-qH6lKXi-xcXrjB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+    <iframe class="m-auto p-1" width="60%" height="315" src="https://www.youtube.com/embed/l_ORAp39MAo?si=e-qH6lKXi-xcXrjB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
     </div>
 </div>
-      
+<br><br>
+
+</body>

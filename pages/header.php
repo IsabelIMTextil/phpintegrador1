@@ -32,7 +32,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#nuevo">Lugar y fecha</a>
+            <a class="nav-link" href="#arq">Lugar y fecha</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#charlas">Charlas y vídeos</a>
@@ -42,7 +42,7 @@
           </li>
           
           <li class="nav-4">
-            <a class="nav-link active" aria-current="page" href="#presentacion">Dar una charla</a>
+            <a class="nav-link active" aria-current="page" href="#talleres">Dar una charla</a>
           </li>
           <!-- <li> <a  class="nav-link active" href="tickets.php"  target="_parent">Tickets</a></li> -->
            <li> <a  class="nav-link active login-nav " href="admin.php"  target="_parent">Login</a></li>

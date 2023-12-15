@@ -42,7 +42,7 @@
     <div class="card">
       <img src="../imagenes/erme.png" class=" img-thumbnail rounded" alt="Ermelinda Painequeo">
       <div class="card-body">
-        <h5 class="card-title">Ermelinda Painequeo - Cultura Mapuche</h5>
+        <h5 class="card-title">Ermelinda Painequeo - Cultura Mapuche</h5> <p>De Trelew, Chubut</p>
         
       </div>
     </div>
@@ -112,10 +112,11 @@
 <!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
 <div class="col">
     <div class="card">
-    <iframe class="m-auto p-1" width="80%" height="315" src="https://www.youtube.com/embed/DJC50gjxbA8?si=c-U_kEllcTc7KBP7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="m-auto p-1" width="60%" height="315" src="https://www.youtube.com/embed/DJC50gjxbA8?si=c-U_kEllcTc7KBP7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
+<br><br>
 </body>
