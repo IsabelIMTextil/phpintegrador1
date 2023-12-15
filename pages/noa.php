@@ -6,7 +6,7 @@
   <div class="col">
     <div class="card">
 
-      <img src="../imagenes/logo.png" class="img-thumbnail rounded" alt="Logo">
+    <a href="../index.php"><img src="../imagenes/logo.png" alt="Logo" width="150" height="70" class="d-inline-block align-text-top"></a>
     </div>
   </div>
 
