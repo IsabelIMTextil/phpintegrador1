@@ -7,7 +7,7 @@
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="imagenes/wichí.jpg" class="d-block w-100" alt="Textiles Wichí" style="height: 400px;">
+                    <img src="imagenes/wichi.jpg" class="d-block w-100" alt="Textiles Wichí" style="height: 400px;">
                     <div class="carousel-caption text-right caption-center">
                       <h2 class="bg-dark">Textiles tradicionales del territorio argentino</h2>
                       <p>Charlas sobre cultura, lengua y cosmovisión de los pueblos originarios de Argentina. Talleres sobre técnicas textiles Wichí, Mapuche y del NOA.</p>
@@ -165,6 +165,9 @@
                         <p id="talleres"></p> 
                         <h4>Talleres simultáneos con cupo limitado. <br> Adquirí tu ticket aquí:   <?php          echo "<td><a class='button button-tickets' href='tickets.php' target='_blank'>TICKETS</a></td>"; 
 ?></h4>
+
+
+
                        
                         <br>
                         <h3>Inscripciones para dar charlas</h3>
