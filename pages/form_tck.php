@@ -1,84 +1,70 @@
 
 <body>
 
-<div class="table-responsive">
-  <table class="table">
-  
-  
+<div class="table">
+  <table class="table table-sm"> 
   <tbody>
+
+  <tr> <th scope="row"><div class="col-md-6 text-center"> <h4>VENTA de TICKETS</h4></div> </th>
+  </tr>
+  
+  <tr> <th scope="row"><div class="col-md-6 text-center"><input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre" name="nombre" required></div></th>  
+   </tr>
+
+    <tr>  <th scope="row"><div class="col-md-6 text-center"><input type="text" class="form-control" id="exampleFormControlInput1" placeholder="apellido" name="apellido" required></div></th>   
+    </tr>
+
+    <tr>   <th scope="row"><div class="col-md-6 text-center"><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico" name="mail" required></div></th> 
+     </tr>
+
+    <tr> <th scope="row"><div class="col-md-6 text-center"><button onclick="" id="enviar" type="submit" class="btn btn-warning text-center" value="Enviar">Enviar</button></div></th>   
+      </tr>
+
+    <tr>   <th scope="row"><div class="col-md-6 text-center"><button onclick="" id="borrar" type="reset" class="btn btn-warning text-center" value="Borrar">Borrar</button></div></th>
+    </tr>
+  </tbody>
+</table>
+<br><br><br>
+</div>
+<!-- fin table venta-->
+<hr>
+
+<!-- tabla para valor -->
+<div class="table table-bordered">
+<table class="table">
+  <tbody>
+    <tr class="table-secondary">
+      <th scope="row"><div class="col-md-6 text-center"><h4>VALOR DE TICKET $ 200</h4> </div> </th>
+    </tr>
+
     <tr>
-      <th scope="row"></th>
-      <td></td>
-      <td><input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre" name="nombre" required></td>
-    
-      <td><input type="text" class="form-control" id="exampleFormControlInput1" placeholder="apellido" name="apellido" required></td>
-      <td></td>
+    <th scope="row"><div class="col-md-6 text-center"> <label for="cantidad">Cantidad</label> <br><input type="number" id="cantidad" placeholder="Cantidad" required> </div></th>
+    </tr>
+   
+  <tr>
+  <th scope="row"> <div class="col-md-6 text-center"><label for="categoria">Categorías</label> <br><select id="categoria" type="number" class="form-select" aria-label="Default select example">
+      <option value="estudiantes">Estudiantes</option>
+       <option value="socios">Socios</option>
+        <option value="visitas">Visitas</option>
+        </select></div></th>
     </tr>
     <tr>
-      <th scope="row"></th>
-      <td></td>
-      <td><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico" name="mail" required></td>
-      <td></td>
+      <th> <div class="col-md-6 text-center">
+  <button onclick="multiplicar()" id="resumen" type="button" class="btn btn-secondary text-center">Resumen</button> </div></th>
+    </tr>
+
+    <tr>
+    <th scope="row"><div class="col-md-6 text-center"><div class="alert alert-primary"  type="button" role="alert">Total a pagar: $ <span id="resultado"></span></div></div></th>
+
     </tr>
     <tr>
-      <th scope="row"></th>
-      <td></td>
-      <td><button onclick="" id="enviar" type="submit" class="btn btn-warning text-center" value="Enviar">Enviar</button> </td>
-      <td><button onclick="" id="borrar" type="reset" class="btn btn-warning text-center" value="Borrar">Borrar</button></td>
+      <th><div class="col-md-6 text-center">
+         <button id="borrar" type="reset" class="btn text-center" value="Borrar">Borrar</button>  </div> </th>
     </tr>
   </tbody>
 </table>
 </div>
-
-<!-- fin table -->
-     
-
-<!-- tabla para valor -->
-
-<table class="table">
-  <caption></caption>
-  <thead>
-    <tr>
-      <th scope="col"></th>
-      <th scope="col"></th>
-     <th><h4>VALOR DE TICKET $ 200</h4></th>
-     <th scope="col"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <th scope="col"> </th>
-   
-      <td> <label for="cantidad">Cantidad</label> <br><input type="number" id="cantidad" placeholder="Cantidad" required> </td>
-  
-        <td> <label for="categoria">Categorías</label> <br><select id="categoria" type="number" class="form-select" aria-label="Default select example">
-                    <option value="estudiantes">Estudiantes</option>
-                    <option value="socios">Socios</option>
-                    <option value="visitas">Visitas</option>
-                    </select></td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td> </td>
-      <td></td>
-    </tr>
-    <tr>
-      <th scope="row"></th>
-      <td> <div class="col-md-6 text-center">
-                  <button id="borrar" type="reset" class="btn text-center" value="Borrar">Borrar</button>    
-          </div></td>
-          <td><div class="alert alert-primary"  type="button" role="alert">Total a pagar: $ <span id="resultado"></span></div></td>
-      <td> <div class="col-md-6 text-center">
-                  <button onclick="multiplicar()" id="resumen" type="button" class="btn btn-secondary text-center">Resumen</button> </td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-
 <!-- fin valor tickets -->
-
-
-
 
 
     

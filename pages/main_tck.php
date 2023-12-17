@@ -51,11 +51,7 @@
 </div>
 
 
-  <div class="container text-center">
-    <div class="column">
-      <h4>VENTA de TICKETS</h4>    
-  </div>
-  </div>
+
 <br>
 
 </body>
