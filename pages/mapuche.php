@@ -43,6 +43,7 @@
       <img src="../imagenes/erme.png" class=" img-thumbnail rounded" alt="Ermelinda Painequeo" width="500"  height="500" style="border: 1px solid #000;">
       <div class="card-body">
         <h5 class="card-title"  style="width: 450px;">Ermelinda Painequeo - Cultura Mapuche</h5> <p  style="width: 450px;">De Trelew, Chubut</p>
+        <p>Los reconocimientos, premios, menciones especiales, que en su trayectoria ha logrado, la hacen considerar como  embajadora y promotora de la revalorización de la cultura y la idiosincrasia del Pueblo Mapuche-Tehuelche. Transmite sus conocimientos hace más de 26 años en el Taller de Tejido Mapuche de la Dirección de Cultura de la Municipalidad de Trelew, enseñando esta actividad ancestral a distintas generaciones, siendo este su gran orgullo. </p>
         
       </div>
     </div>

@@ -143,34 +143,23 @@
                   
                   echo "<td><a class='button [btn btn-warning btn-block]'href='pages/expositores.php' target='_blank'>Conocé a los expositores</a></td></tr>"; 
 ?>
-
-
-
-                    </div>
+  </div>
             <!-- fin conocé más -->
             
+
+
                  <!-- inicio formulario -->
             
-            <div class="container">
-                    <div class="row align-items-start">
-            
-                      <div class="col-sm-3">
-                                  </div>
-                      <div class="col-sm-6">
-               
-
+ <div class="container">
+    <div class="row align-items-start">
+        <div class="col-sm-3">  </div>
+   <div class="col-sm-6"> 
 <!-- abrir tickets en otra pestaña -->
-
-
-                        <p id="talleres"></p> 
-                        <h4>Talleres simultáneos con cupo limitado. <br> Adquirí tu ticket aquí:   <?php          echo "<td><a class='button button-tickets' href='tickets.php' target='_blank'>TICKETS</a></td>"; 
-?></h4>
-
-
-
-                       
-                        <br>
-                        <h3>Inscripciones para dar charlas</h3>
+ <p id="talleres"></p> 
+   <h4>Talleres simultáneos con cupo limitado. <br> Adquirí tu ticket aquí: <?php echo "<td><a class='button button-tickets' href='tickets.php' target='_blank'>TICKETS</a></td>";?></h4>
+   <br>
+  <br>
+  <h3>INSCRIPCIONES PARA DAR CHARLAS</h3>
 
 
                         <?php

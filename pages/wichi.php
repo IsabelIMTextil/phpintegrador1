@@ -24,7 +24,7 @@
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
    
-
+<title>WICHÍ</title>
 <!-- empieza bootstrap -->
 <!-- maría -->
 
@@ -35,6 +35,7 @@
       <div class="card-body">
         <h5 class="card-title"  style="width: 500px;">María del Carmen Toribio - Cultura Wichí</h5>
         <p>De Ing. Juárez, Formosa. </p>
+        <p>Desde temprana edad aprendió la artesanía milenaria del chaguar, tesoro del monte de donde se obtienen los hilos. Genedora de importantes premios, como el Primer Premio del Concurso de Artesanías organizado por Fondo Nacional de las Artes.</p>
         
       </div>
     </div>
@@ -102,13 +103,25 @@
 
 
 
-<!-- <div class="row row-cols-1 row-cols-md-2 g-4"> -->
-<div class="col">
+<!-- videos -->
+
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  
+  <div class="col">
     <div class="card">
-    <iframe style="border: 1px solid #000;" class="m-auto p-1" width="60%" height="315" src="https://www.youtube.com/embed/DOMXpNCDI_Y?si=s9kptASdrbY9XmSv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
-        
-    <iframe style="border: 1px solid #000;" class="m-auto p-1" width="60%" height="315" src="https://www.youtube.com/embed/l_ORAp39MAo?si=e-qH6lKXi-xcXrjB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+    <iframe style="border: 1px solid #000;" class="m-auto p-1" width="100%" height="315" src="https://www.youtube.com/embed/DOMXpNCDI_Y?si=s9kptASdrbY9XmSv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+      </div>
     </div>
+
+  
+  <div class="col">
+    <div class="card">
+    <iframe style="border: 1px solid #000;" class="m-auto p-1" width="100%" height="315" src="https://www.youtube.com/embed/l_ORAp39MAo?si=e-qH6lKXi-xcXrjB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+    
+    </div>
+    </div>
+  </div>
 </div>
 <br><br>
 

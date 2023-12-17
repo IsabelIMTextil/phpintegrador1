@@ -1,56 +1,87 @@
 
-
-
 <body>
+
+<div class="table-responsive">
+  <table class="table">
+  
+  
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td><input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre" name="nombre" required></td>
     
-
-
-<div class="row row-cols-1 row-cols-md-4 g-5">
-<div class="col"></div>
-
-<form action="datos.php" method="get">
-    <!-- post para enviar y esconder la información /// get para traer y ver en la url -->
-    <div class="col" id="username">
-    <div class="mb-3">
-   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="nombre" name="nombre" required>
+      <td><input type="text" class="form-control" id="exampleFormControlInput1" placeholder="apellido" name="apellido" required></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo electrónico" name="mail" required></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td><button onclick="" id="enviar" type="submit" class="btn btn-warning text-center" value="Enviar">Enviar</button> </td>
+      <td><button onclick="" id="borrar" type="reset" class="btn btn-warning text-center" value="Borrar">Borrar</button></td>
+    </tr>
+  </tbody>
+</table>
 </div>
-</div>
 
-<div class="col">
-<div class="mb-3">
-   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="apellido" name="apellido" required>
-</div>
-</div>
+<!-- fin table -->
+     
 
-<div class="mb-3">
-    <div id="correo">
-   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mail@servidor.com" name="mail" required></div>
-</div>
-</div>
-<!-- <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="comentarios"></textarea>
-</div> -->
+<!-- tabla para valor -->
+
+<table class="table">
+  <caption></caption>
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col"></th>
+     <th><h4>VALOR DE TICKET $ 200</h4></th>
+     <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <th scope="col"> </th>
+   
+      <td> <label for="cantidad">Cantidad</label> <br><input type="number" id="cantidad" placeholder="Cantidad" required> </td>
+  
+        <td> <label for="categoria">Categorías</label> <br><select id="categoria" type="number" class="form-select" aria-label="Default select example">
+                    <option value="estudiantes">Estudiantes</option>
+                    <option value="socios">Socios</option>
+                    <option value="visitas">Visitas</option>
+                    </select></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td> </td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td> <div class="col-md-6 text-center">
+                  <button id="borrar" type="reset" class="btn text-center" value="Borrar">Borrar</button>    
+          </div></td>
+          <td><div class="alert alert-primary"  type="button" role="alert">Total a pagar: $ <span id="resultado"></span></div></td>
+      <td> <div class="col-md-6 text-center">
+                  <button onclick="multiplicar()" id="resumen" type="button" class="btn btn-secondary text-center">Resumen</button> </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- fin valor tickets -->
 
 
 
-<div id="contenedor">
-       <div class="row">
-          <div class="col-md-6 text-center">
-                  <button onclick="" id="enviar" type="submit" class="btn btn-warning text-center" value="Enviar">Enviar</button>    
-          </div>
-          <div class="col-md-6 text-center">
-                  <button onclick="" id="borrar" type="reset" class="btn btn-warning text-center" value="Borrar">Borrar</button>    
-          </div>
-       </div>
-     </div>
 
-<br>
-<br>
-<div class="container text-center">
-    <div class="column">
-      
-    <h1>VALOR DE TICKET $ 200</h1>
+
+    
   </div>
   </div>
 <br>
@@ -59,11 +90,11 @@
     <!-- agrego formulario multiplicación -->
     <div class="container">
           <div id="entradas" action="">
-              <form id="multiplicar" class="container">
+              <!-- <form id="multiplicar" class="container">
                 <div class="col-md-10" >
                   <label for="cantidad">Cantidad</label>  <br><input type="number" id="cantidad" placeholder="Cantidad" required> 
-                </div>
-                <div  class="col-md-10">
+                </div> -->
+                <!-- <div  class="col-md-10">
                   <label for="categoria">Categorías</label> 
                    <select id="categoria" type="number" class="form-select" aria-label="Default select example">
                     <option value="estudiantes">Estudiantes</option>
@@ -71,33 +102,25 @@
                     <option value="visitas">Visitas</option>
                     </select> 
                   </div>
-              </form>
+              </form> -->
 <!-- agrego botones bootstrap   -->
-                
-              <div class="alert alert-primary"  type="button" role="alert">Total a pagar: $ <span id="resultado"></span></div>
-             
-<!-- fin agrego botones    -->
-              <!-- <div class="col-md-10">
-             
-              <button onclick="multiplicar()" type="button" ><p>Total a pagar: $ <span id="resultado"></span></p></button>
-            </div> -->
-             
-          </div>
+    <!-- <div class="alert alert-primary"  type="button" role="alert">Total a pagar: $ <span id="resultado"></span></div>   -->
+<!-- fin agrego botones    -->         
+       </div>
     </div>
-
 
      <div id="container">
        <div class="row">
-          <div class="col-md-6 text-center">
+          <!-- <div class="col-md-6 text-center">
                   <button id="borrar" type="reset" class="btn text-center" value="Borrar">Borrar</button>    
-          </div>
-          <div class="col-md-6 text-center">
-                  <button onclick="multiplicar()" id="resumen" type="button" class="btn btn-secondary text-center">Resumen</button>    
+          </div> -->
+          <!-- <div class="col-md-6 text-center">
+                  <button onclick="multiplicar()" id="resumen" type="button" class="btn btn-secondary text-center">Resumen</button>     -->
           </div>
        </div>
      </div>
   
-
+    
 
 
 
