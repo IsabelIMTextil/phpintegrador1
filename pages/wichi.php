@@ -46,8 +46,8 @@
     <div class="card">
       <img src="../imagenes/malla.jpeg" class=" img-thumbnail rounded" alt="malla tejida" width="500" height="500" style="border: 1px solid #000;">
       <div class="card-body">
-        <h5 class="card-title">Malla tejida</h5>
-        <p class="card-text"  style="width: 450px;">Las redes de malla son una de las técnicas textiles más antiguas de Sudamérica. Con fibra de chaguar se tejían camisas de punto muy cerrado y pierneras para los combates, además de mantos y bolsas.</p>
+        <h5 class="card-title"  style="width: 450px;">Malla tejida</h5>
+        <p class="card-text" >Las redes de malla son una de las técnicas textiles más antiguas de Sudamérica. Con fibra de chaguar se tejían camisas de punto muy cerrado y pierneras para los combates, además de mantos y bolsas.</p>
       </div>
     </div>
   </div>
@@ -58,8 +58,8 @@
     <div class="card">
       <img src="../imagenes/wichi_dios.png" class=" img-thumbnail rounded" alt="El dios Tokwjaj" width="500"  height="500" style="border: 1px solid #000;">
       <div class="card-body">
-        <h5 class="card-title">El dios Tokwjaj</h5>
-        <p class="card-text"  style="width: 450px;">Según una de las historias de las comunidades wichís, el dios Tokwjaj (tío travieso) les enseñó a recolectar, trabajar y tejer las fribras de chaguar. Con ese dios ambivalente aprendieron, además, a cazar y a recolectar frutos, a domesticar al perro y a combatir las tempestades, pero también conocieron la guerra y la violencia.</p>
+        <h5 class="card-title"  style="width: 450px;">El dios Tokwjaj</h5>
+        <p class="card-text" >Según una de las historias de las comunidades wichís, el dios Tokwjaj (tío travieso) les enseñó a recolectar, trabajar y tejer las fribras de chaguar. Con ese dios ambivalente aprendieron, además, a cazar y a recolectar frutos, a domesticar al perro y a combatir las tempestades, pero también conocieron la guerra y la violencia.</p>
       </div>
     </div>
   </div>
@@ -69,8 +69,8 @@
     <div class="card">
       <img src="../imagenes/wichi-tec.jpeg" class=" img-thumbnail rounded" alt="técnica textil wichí" width="500"  height="500" style="border: 1px solid #000;">
       <div class="card-body">
-        <h5 class="card-title">Técnica de tejido Wichí</h5>
-        <p class="card-text"  style="width: 450px;">Las mujeres de la comunidad wichí, un pueblo originario de la región chaqueña, juegan un papel indispensable en la forma de vida de la región. Desde hace mucho tiempo, una de sus actividades es hacer tejidos de red con fibras de chaguar. Ellas conocen muy bien los lugares donde buscar las plantas de chaguar del tamaño y de la calidad adecuados.</p>
+        <h5 class="card-title"  style="width: 450px;">Técnica de tejido Wichí</h5>
+        <p class="card-text" >Las mujeres de la comunidad wichí, un pueblo originario de la región chaqueña, juegan un papel indispensable en la forma de vida de la región. Desde hace mucho tiempo, una de sus actividades es hacer tejidos de red con fibras de chaguar. Ellas conocen muy bien los lugares donde buscar las plantas de chaguar del tamaño y de la calidad adecuados.</p>
       </div>
     </div>
   </div>
@@ -82,8 +82,8 @@
     <div class="card">
       <img src="../imagenes/chaco.jpeg"  class=" img-thumbnail rounded" alt="Región del Gran Chaco" width="500"  height="500" style="border: 1px solid #000;">
       <div class="card-body">
-        <h5 class="card-title">Región del Gran Chaco</h5>
-        <p class="card-text"  style="width: 450px;">Los tejidos de la cultura Wichí se realizan con la fibra de chaguar o caraguatá, una planta que se usa desde tiempos prehispánicos con fines alimenticios, medicinales y rituales. Además, con sus fibras se elaboran hilos muy resistentes para realizar textiles.</p>
+        <h5 class="card-title"  style="width: 450px;">Región del Gran Chaco</h5>
+        <p class="card-text" >Los tejidos de la cultura Wichí se realizan con la fibra de chaguar o caraguatá, una planta que se usa desde tiempos prehispánicos con fines alimenticios, medicinales y rituales. Además, con sus fibras se elaboran hilos muy resistentes para realizar textiles.</p>
       </div>
     </div>
   </div>
@@ -92,9 +92,8 @@
     <div class="card">
       <img src="../imagenes/palosanto.jpeg" class="img-thumbnail rounded" alt="artesanía en palo santo" width="500"  height="500" style="border: 1px solid #000;">
       <div class="card-body">
-        <h5 class="card-title">El palo santo</h5>
-        <p class="card-text"  style="width: 450px;">es un árbol nativo del Gran Chaco sudamericano, su madera es muy preciada. Los wichís la usan para tratamientos médicos, y para tallar o tornear utensilios de cocina y artesanías que representan la fauna del monte. Por otra parte, existe la creencia de qu el humo de esta madera ahuyenta los espíritus malignos. De ella se obtiene el color azul verdoso, y de las hojas del palo santo, el amarillo para teñir textiles</p>
-        <p  style="width: 450px;">Actualmente se confeccionan redes y despeinadoras para la pesca, que es la base económica de los pueblos de la región chaqueña</p>
+        <h5 class="card-title"  style="width: 450px;">El palo santo</h5>
+        <p class="card-text" >es un árbol nativo del Gran Chaco sudamericano, su madera es muy preciada. Los wichís la usan para tratamientos médicos, y para tallar o tornear utensilios de cocina y artesanías que representan la fauna del monte. Por otra parte, existe la creencia de qu el humo de esta madera ahuyenta los espíritus malignos. De ella se obtiene el color azul verdoso, y de las hojas del palo santo, el amarillo para teñir textiles. Actualmente se confeccionan redes y despeinadoras para la pesca, que es la base económica de los pueblos de la región chaqueña</p>
       </div>
     </div>
   </div>
