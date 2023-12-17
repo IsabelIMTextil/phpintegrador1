@@ -34,7 +34,7 @@
 <table class="table">
   <tbody>
     <tr class="table-secondary">
-      <th scope="row"><div class="col-md-6 text-center"><h4>VALOR DE TICKET $ 200</h4> </div> </th>
+      <th scope="row" colspan="2"><div class="col-md-6 text-center"><h4>VALOR DE TICKET $ 200</h4> </div> </th>
     </tr>
 
     <tr>

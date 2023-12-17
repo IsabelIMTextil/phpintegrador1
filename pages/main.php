@@ -58,6 +58,9 @@
                     <h2>Charlas sobre pueblos originarios</h2>
                     <h5> Cultura, lengua, cosmovisión y técnicas textiles</h5>
                 </div>
+
+
+                
                   <div class="row">
                         <div class="card-group p-3">
                              
