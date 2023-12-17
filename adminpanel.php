@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  
+</body>
+</html>
 <?php
 
 session_start();
@@ -44,7 +57,13 @@ if(!isset($usuario)){
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     
+     
+    
+      
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link rel="stylesheet" href="../css/styles.css">
+      
         <title>Oradores</title>
     </head>
     <body>
@@ -55,7 +74,7 @@ if(!isset($usuario)){
     
         <div class="container-fluid">
           
-          <a href="../index.php"><img src="./imagenes/logo.png" alt="Logo" width="150" height="70" class="d-inline-block align-text-top"></a>
+          <a href="./index.php"><img src="./imagenes/logo.png" alt="Logo" width="150" height="70" class="d-inline-block align-text-top"></a>
           
     
           <a class="navbar-brand m-1" href="#"><strong>Charlas y talleres</strong></a>
@@ -83,7 +102,7 @@ if(!isset($usuario)){
           
           
           
-                          
+                          <
            
             </ul>
            
@@ -93,7 +112,7 @@ if(!isset($usuario)){
     
     </header>
     <!--  termina  nav  -->
-    
+     
     <br><br>
     <div>
     <h1 class="text-center">Lista de Expositores</h1>
@@ -116,7 +135,7 @@ if(!isset($usuario)){
     </div>
     </div>
 
-           
+   
             
         <!-- <div class="row">
             <div class="col-12">
@@ -133,11 +152,11 @@ if(!isset($usuario)){
       <?php 
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
+          
            
     ?> 
     
-        
-      
+       
             <div>
             <table class="table table-border table-hover text-center">
     <tbody>
@@ -148,8 +167,8 @@ if(!isset($usuario)){
           <td class="col-3"><?= $row['tema'] ?></td>
           <td class="col-2">
           <div class="col">
-          <a href="<?php echo $row['id_orador'];?>"><button type="button" class="btn btn-primary" > EDITAR</button></a> 
-        <a href="./eliminar.php?id=<?php echo $row['id_orador'];?>"><button type="button" class="btn btn-danger" >BORRAR</button>
+          <a href="./editar.php"><button type="button" class="btn btn-primary editbtn" > EDITAR</button></a> 
+        <a  href="./eliminar.php?id=<?php echo $row['id_orador']?>"><button onclick=" return alert(event)" type="button" class="btn btn-danger btn-del" >BORRAR</button>
         </div>
           </td>
           
@@ -168,9 +187,12 @@ if(!isset($usuario)){
     }
     }
     ?>   
-    
-    
-    
+  
+    <body> 
+
+                 <script src="./js/alert.js"></script>
+     
+      </body>
     
     <footer id="">
     
@@ -221,12 +243,14 @@ if(!isset($usuario)){
           
           </div>
         </div>
-    
+        <script>
+
+        </script>
     
         </footer> 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-     
-    </body>
+           
+
     </html>
 
     

@@ -17,6 +17,7 @@ const DB_NAME = "id21574541_oradores_textiles"; (el nombre de la tabla en webhos
 */
 const BASE_URL= "http://localhost:8080/";
 
+
 // function imprimirConfig(){
 
 //     return echo "<br> <br> DB_NAME: ". $DB_NAME."DB_USER: ". $DB_USER . "<br> ";

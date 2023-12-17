@@ -1,21 +1,34 @@
+
+
 <?php
 
 echo "<h2> Eliminiar!!!! </h2>";
 
 require "./panel/conexion.php";
 
-$id = $_GET['id'];
+
+$id =$_GET['id'];
 
 
 //eliminar algun registro de mi tabla de la BD
 
-$queryEliminar = "DELETE FROM oradores WHERE id_orador = '$id'";
+$queryEliminar = "DELETE FROM oradores WHERE id_orador ='$id'";
 
 $deleteRegistro = mysqli_query($conexion,$queryEliminar);
 
 if($deleteRegistro){
-header("location: ./adminpanel.php");
+
+      echo "<script languaje='javascript'> alert('Registro eliminado');</script>";
+      header('location: adminpanel.php');
+  
+
+} else{
+    echo "<script languaje='javascript'> alert('No se pudo eliminar el registro'); </script>";
 }
 
 
 ?>
+<!-- <script type="text/javascript"> function confirmar(){
+          return confirm('Estas seguro que deseas eliminar el registro?');
+        }</script>   -->
+       
