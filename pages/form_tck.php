@@ -33,8 +33,8 @@
 <div class="table border-0">
 <table class="table border-0">
   <tbody class="border-0">
-    <tr class="table-secondary border-0">
-      <th scope="row" class="border-0"><div class="col-md-6 text-center border-0"><h4>VALOR DE TICKET $ 200</h4> </div> </th>
+    <tr class="border-0">
+      <th scope="row" class="border-0"><div class="col-md-6 text-center border-0" style="background-color: gold;"><h3 style="color: brown;">VALOR DE TICKET $ 200</h3> </div> </th>
     </tr>
 
     <tr class="border-0">
