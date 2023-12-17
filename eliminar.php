@@ -28,7 +28,4 @@ if($deleteRegistro){
 
 
 ?>
-<!-- <script type="text/javascript"> function confirmar(){
-          return confirm('Estas seguro que deseas eliminar el registro?');
-        }</script>   -->
-       
+

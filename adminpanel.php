@@ -67,6 +67,7 @@ if(!isset($usuario)){
         <title>Oradores</title>
     </head>
     <body>
+
     
     <header>
                
@@ -167,8 +168,8 @@ if(!isset($usuario)){
           <td class="col-3"><?= $row['tema'] ?></td>
           <td class="col-2">
           <div class="col">
-          <a href="./editar.php"><button type="button" class="btn btn-primary editbtn" > EDITAR</button></a> 
-        <a  href="./eliminar.php?id=<?php echo $row['id_orador']?>"><button onclick=" return alert(event)" type="button" class="btn btn-danger btn-del" >BORRAR</button>
+          <a href="./editar.php?id=<?php echo $row['id_orador']?>"><button type="button" class="btn btn-primary editbtn" > EDITAR</button></a> 
+        <a  href="./eliminar.php?id=<?php echo $row['id_orador']?>"><button  type="button" class="btn btn-danger btn-del" >BORRAR</button></a>
         </div>
           </td>
           
@@ -188,9 +189,9 @@ if(!isset($usuario)){
     }
     ?>   
   
-    <body> 
+ 
 
-                 <script src="./js/alert.js"></script>
+   
      
       </body>
     
